@@ -1,0 +1,60 @@
+---
+title: "Events and Resources"
+favicon: favicon.ico
+image: "images/MARVLS_logo.png"
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+
+<script>
+$('#button').click(function(){
+    $('#wrapper').toggle();
+});  
+</script>
+<style>
+#wrapper {
+  display:none
+} 
+.button {
+  background-color: #4CAF50;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+
+<div>
+Mission: To advance scientific knowledge and communicate the importance of reproductive biology in the management of marine fish and invertebrates.
+
+<div style="float: left">[Click here to join the MARVLS email list](https://docs.google.com/spreadsheets/d/1SaHmhj6l6d6JybSbwJNL1zyfqPBK0upNVHZ_64Bf3TI/edit#gid=0)</div> 
+</div>
+<div style="float: right">[Add MARVLS Calendar](https://calendar.google.com/calendar/u/0?cid=Y19mbGJnaTAybGI5ajV2Y2VnZ3ZkN2txMG03a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+</div>
+
+<p></p>
+<br/>
+<hr>
+
+## Upcoming MARVLS Events
+
+
+* **Tues May 10 2022 11:30am-1:30pm PST** Fecundity Demonstration [Add to your calendar](https://calendar.google.com/calendar/u/0/r/eventedit/XzZvbzY2Y3BvNjBvamViOWtjcGg2OGI5a2NwaDM2YjlvY2RqMzJiYjE2bGdqZ29oZzZsaWpjYzltYzQgZXZhLnNjaGVtbWVsQG5vYWEuZ292?hl=en&rst=1&es=1&sf=true&response_updated=1) 
+
+* **September 2022 Date/Time TBD. MARVLS Fall Quaterly Meeting - Gonadal Parasites** More information to come. 
+
+</div>  
+
+<br/><br/>
+
+
+
+
+

@@ -1,0 +1,31 @@
+---
+title: "Workshops"
+description: |
+  Links to past National MARVLS Workshops.
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 2020
+
+[2020 Joint NSAW & MARVLS meeting: 4th National MARVLS Workshop rescheduled](https://drive.google.com/drive/folders/1F3XlWxnx0FR7vaf_DB12FlPhh09w903B?usp=sharing). In-person workshop canceled but a virtual histology workshop was held. [Results from virtual histology workshop](https://drive.google.com/file/d/1p2sBsP2WXbBnjr5SMqhH94yRR8UAzPWp/view?usp=sharing)
+
+## 2018
+
+[2018 Panama City, Florida 3rd National MARVLS Workshop](https://drive.google.com/drive/folders/0ByVuq7I9twM0ZkpOdDA4UWhoYjg?resourcekey=0-tLGIzqUJRVyWJ1-bKOjAzw&usp=sharing) 
+
+## 2016
+
+[2016 La,Jolla, 2nd National MARVLS Workshop](https://drive.google.com/drive/folders/0Bzbh3GQePyXtQm1oVzlnREhIN0U?resourcekey=0-vFlmTDcb3GYT9UiQq8Inyw&usp=sharing) 
+
+## 2014
+
+[2014 1st National MARVLS Workshop](https://drive.google.com/drive/folders/0B3eMpfa8X_tjWmI1VkRiUnF5eW8?resourcekey=0-kYvGO3RrFdDW8kFff6b5-g&usp=sharing) 
+

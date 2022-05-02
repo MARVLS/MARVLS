@@ -1,0 +1,32 @@
+name: "."
+title: "MARVLS"
+description: |
+  MARVLS events and materials
+favicon: favicon.ico
+output_dir: "docs"
+base_url: https://nmfs-openscapes.github.io/NMFS-R-UG
+navbar:
+  logo: 
+    image: images/MARVLS_logo.png
+  search: false
+  right:
+    - text: "Upcoming events"
+      href: index.html
+    - text: "Quarterly Seminar"
+      href: Meetings.html
+    - text: "Workshops"
+      href: workshops.html
+    - text: "Resources"
+      href: resources.html      
+    - icon: fab fa-github
+      href: https://github.com/nmfs-openscapes/NMFS-R-UG
+theme: theme.css
+output:
+  distill::distill_article:
+    includes:
+      in_header:
+      - _header.html
+collections:
+  posts: 
+    categories: true
+    share: [twitter, linkedin]

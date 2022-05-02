@@ -1,0 +1,41 @@
+---
+title: "Quarterly Seminar"
+description: |
+  Links to past MARVLS Quarterly Seminars.
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 3
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Spring 2022
+
+[Fecundity Demonstration](https://docs.google.com/presentation/d/1pKRdlB0pn80qT71JR62B5uIGBCOrHC5b/edit?usp=sharing&ouid=108568510384864967669&rtpof=true&sd=true) 
+
+## Spring Bonus Seminar
+
+[ Incorporating Skipped Spawning Information Into Stock Assessments
+](https://drive.google.com/file/d/1278usjKv9imhh7Q3gMQD44AZGsO5Ibyf/view?usp=sharing) 
+Presentations by Melissa Head and Ben Williams. [Link to video recording.](https://drive.google.com/file/d/1ngLmiJj13knnHngQAnMiVck-LVcVJOyA/view?usp=sharing)
+
+
+## Winter 2022
+
+[Atresia Seminar](https://drive.google.com/drive/u/0/folders/12pJTfdT_uXUvx-E2qLbUMRcj-lyfKl71) Ovarian atresia was reviewed. [Link to video recording.](https://drive.google.com/file/d/1T250SwiMsvwZ3tVZLUbe2JYaeDmUciCT/view?usp=sharing) 
+
+
+## Fall 2021
+
+[3 MARVLS presentations](https://drive.google.com/drive/folders/1H6bQ1I6GYeJAW0iFx3N2lHHHKZ0FdcLk?usp=sharing). Presentations by Ann Peterson, Brad Erisman, and Josep Planas. [Link to video recording.](https://drive.google.com/file/d/1cok6g7cCWfdXcuEPy3RELdHIk6v5ilAc/view?usp=sharing)
+
+## Winter 2022
+
+[Atresia Seminar](https://drive.google.com/drive/u/0/folders/12pJTfdT_uXUvx-E2qLbUMRcj-lyfKl71) Ovarian atresia was reviewed. [Link to video recording.](https://drive.google.com/file/d/1T250SwiMsvwZ3tVZLUbe2JYaeDmUciCT/view?usp=sharing) 
+
+
