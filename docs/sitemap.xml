@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/</loc>
     <lastmod>2022-05-02T13:17:09-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/Meetings.html</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/Meetings.html</loc>
     <lastmod>2022-05-02T13:11:28-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/posts.html</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/posts.html</loc>
     <lastmod>2022-04-21T10:08:32-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/repos.html</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/repos.html</loc>
     <lastmod>2022-04-21T10:08:32-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/resources.html</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/resources.html</loc>
     <lastmod>2022-04-21T10:08:32-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/workshops.html</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/workshops.html</loc>
     <lastmod>2022-04-28T11:21:53-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/posts/2021-09-28-vdiffr/</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/posts/2021-09-28-vdiffr/</loc>
     <lastmod>2022-04-21T10:08:32-10:00</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-openscapes.github.io/NMFS-R-UG/posts/2021-09-15-welcome/</loc>
+    <loc>https://github.com/NOAA-LHP/MARVLS/posts/2021-09-15-welcome/</loc>
     <lastmod>2022-04-21T10:08:32-10:00</lastmod>
   </url>
 </urlset>
