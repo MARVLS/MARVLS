@@ -13,7 +13,7 @@
       "description": "Links to past MARVLS Quarterly Seminars.\n",
       "author": [],
       "contents": "\n\nContents\nSpring 2022\nSpring Bonus Seminar\nWinter 2022\nFall 2021\nWinter 2022\n\nSpring 2022\nFecundity Demonstration\nSpring Bonus Seminar\nIncorporating Skipped Spawning Information Into Stock Assessments Presentations by Melissa Head and Ben Williams. Link to video recording.\nWinter 2022\nAtresia Seminar Ovarian atresia was reviewed. Link to video recording.\nFall 2021\n3 MARVLS presentations. Presentations by Ann Peterson, Brad Erisman, and Josep Planas. Link to video recording.\nWinter 2022\nAtresia Seminar Ovarian atresia was reviewed. Link to video recording.\n\n\n\n",
-      "last_modified": "2022-05-02T13:11:31-10:00"
+      "last_modified": "2022-05-03T08:28:07-10:00"
     },
     {
       "path": "posts.html",
@@ -33,10 +33,10 @@
     {
       "path": "resources.html",
       "title": "Resources",
-      "description": "Links to resources of interest to R-Govys members \n",
+      "description": "Links to resources of interest to MARVLS members.\n",
       "author": [],
-      "contents": "\n\nContents\nTraining materials for R\nTraining materials for Python\nNOAA specific packages\nRecommended general packages\nOther Open Science Efforts in Government\n\nTraining materials for R\nClick to expand!\nThere are many many online R resources. These are some that NMFS R users have found particular helpful or R courses that were developed by NMFS or other federal agencies.\nR Consortium YouTube Channel many lectures on R topics.\nHappyGitwR\nGAMS in R\nData Visualizations, mostly in R USGS GitHub org that has many examples of data visualizations.\nLots of environmental data examples in R Click on “PREVIOUS SESSIONS” to go to tutorials.\nUSGS R Training courses\nWest Coast Region R course\nTraining materials for Python\nClick to expand!\nVisualations and Dashboards in Python\nNASA EarthData webinars Many of these are Python examples and include links to the repos.\nNOAA specific packages\nClick to expand!\nrnoaa An R interface to many NOAA data sources: climate data, ocean data, weather data, etc.\ncrawl An R package that provides analytical tools for estimating the movement paths of animals from telemetry data.\nuswebr RMarkdown template based on the U.S. Web Design Standards. Example of output.\nRecommended general packages\nClick to expand!\n\n{tidyverse}\n{ggplot2}\n{styler} Style your code using the styler add-in for RStudio\n{distill} Distill for R Markdown is a web publishing format optimized for scientific and technical communication. Distill articles include: math, citations, footnotes, multiple ways to output content (website, blog, article).\nOther Open Science Efforts in Government\nGitHub in the US federal agencies GitHub is widely used by US federal agencies and scientists to deliver products and collaborate. This wiki links to some of those efforts.\nNASA EarthData\nUSGS R\n\n\n\n",
-      "last_modified": "2022-04-21T10:08:32-10:00"
+      "contents": "\n\nContents\nTo be developed\n\nTo be developed\n\n\n\n",
+      "last_modified": "2022-05-03T08:26:47-10:00"
     },
     {
       "path": "workshops.html",
@@ -44,7 +44,7 @@
       "description": "Links to past National MARVLS Workshops.\n",
       "author": [],
       "contents": "\n\nContents\n2020\n2018\n2016\n2014\n\n2020\n2020 Joint NSAW & MARVLS meeting: 4th National MARVLS Workshop rescheduled. In-person workshop canceled but a virtual histology workshop was held. Results from virtual histology workshop\n2018\n2018 Panama City, Florida 3rd National MARVLS Workshop\n2016\n2016 La,Jolla, 2nd National MARVLS Workshop\n2014\n2014 1st National MARVLS Workshop\n\n\n\n",
-      "last_modified": "2022-04-28T11:18:55-10:00"
+      "last_modified": "2022-05-03T08:28:20-10:00"
     }
   ],
   "collections": ["posts/posts.json"]
