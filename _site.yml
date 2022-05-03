@@ -19,7 +19,7 @@ navbar:
     - text: "Resources"
       href: resources.html      
     - icon: fab fa-github
-      href: https://noaa-lhp.github.io/MARVLS/
+      href: https://github.com/NOAA-LHP/MARVLS/tree/main/docs
 theme: theme.css
 output:
   distill::distill_article:
