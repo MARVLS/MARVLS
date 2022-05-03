@@ -4,7 +4,7 @@ description: |
   MARVLS events and materials
 favicon: favicon.ico
 output_dir: "docs"
-base_url: https://github.com/NOAA-LHP/MARVLS
+base_url: https://noaa-lhp.github.io/MARVLS/
 navbar:
   logo: 
     image: images/MARVLS_logo.png
@@ -19,7 +19,7 @@ navbar:
     - text: "Resources"
       href: resources.html      
     - icon: fab fa-github
-      href: https://github.com/NOAA-LHP/MARVLS
+      href: https://noaa-lhp.github.io/MARVLS/
 theme: theme.css
 output:
   distill::distill_article:
