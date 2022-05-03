@@ -5,7 +5,7 @@
       "title": "Events and Resources",
       "author": [],
       "contents": "\n\n          \n      \n      \n      \n      MARVLS\n      \n      \n      Upcoming events\n      Quarterly Seminar\n      Workshops\n      Resources\n      \n      \n      \n      ☰\n      \n      \n      \n        \n          \n            \n              \n            \n              Events and Resources\n            \n            \n              \n                \n            \n          \n        \n        \n        \n          \n            \n            $('#button').click(function(){\n                $('#wrapper').toggle();\n            });  \n            \n            #wrapper {\n              display:none\n            } \n            .button {\n              background-color: #4CAF50;\n              border-radius: 12px;\n              border: none;\n              color: white;\n              padding: 10px 32px;\n              text-align: center;\n              text-decoration: none;\n              display: inline-block;\n              font-size: 16px;\n              margin: 4px 2px;\n              cursor: pointer;\n            }\n            \n            Mission: To advance scientific knowledge and communicate the importance of reproductive biology in the management of marine fish and invertebrates.\n            \n            Click here to join the MARVLS email list\n            \n            \n            \n            Add MARVLS Calendar\n            \n            \n            \n            \n            Upcoming MARVLS Events\n            Tues May 10 2022 11:30am-1:30pm PST Fecundity Demonstration Add to your calendar\n            September 2022 Date/Time TBD. MARVLS Fall Quaterly Meeting - Gonadal Parasites More information to come.\n            \n            \n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Events and Resources\n            \n            \n              \n                \n                                  \n              \n            \n            \n              \n              $('#button').click(function(){\n                  $('#wrapper').toggle();\n              });  \n              \n              #wrapper {\n                display:none\n              } \n              .button {\n                background-color: #4CAF50;\n                border-radius: 12px;\n                border: none;\n                color: white;\n                padding: 10px 32px;\n                text-align: center;\n                text-decoration: none;\n                display: inline-block;\n                font-size: 16px;\n                margin: 4px 2px;\n                cursor: pointer;\n              }\n              \n              Mission: To advance scientific knowledge and communicate the importance of reproductive biology in the management of marine fish and invertebrates.\n              \n              Click here to join the MARVLS email list\n              \n              \n              \n              Add MARVLS Calendar\n              \n              \n              \n              \n              Upcoming MARVLS Events\n              Tues May 10 2022 11:30am-1:30pm PST Fecundity Demonstration Add to your calendar\n              September 2022 Date/Time TBD. MARVLS Fall Quaterly Meeting - Gonadal Parasites More information to come.\n              \n              \n              \n            \n        \n      \n    \n\n    \n    \n    \n    This website was made with distill by RStudio.\n    \n    \n  \n  ",
-      "last_modified": "2022-05-03T08:18:11-10:00"
+      "last_modified": "2022-05-03T08:34:24-10:00"
     },
     {
       "path": "Meetings.html",
@@ -13,7 +13,7 @@
       "description": "Links to past MARVLS Quarterly Seminars.\n",
       "author": [],
       "contents": "\n\nContents\nSpring 2022\nSpring Bonus Seminar\nWinter 2022\nFall 2021\nWinter 2022\n\nSpring 2022\nFecundity Demonstration\nSpring Bonus Seminar\nIncorporating Skipped Spawning Information Into Stock Assessments Presentations by Melissa Head and Ben Williams. Link to video recording.\nWinter 2022\nAtresia Seminar Ovarian atresia was reviewed. Link to video recording.\nFall 2021\n3 MARVLS presentations. Presentations by Ann Peterson, Brad Erisman, and Josep Planas. Link to video recording.\nWinter 2022\nAtresia Seminar Ovarian atresia was reviewed. Link to video recording.\n\n\n\n",
-      "last_modified": "2022-05-03T08:28:07-10:00"
+      "last_modified": "2022-05-03T08:34:41-10:00"
     },
     {
       "path": "posts.html",
@@ -36,7 +36,7 @@
       "description": "Links to resources of interest to MARVLS members.\n",
       "author": [],
       "contents": "\n\nContents\nTo be developed\n\nTo be developed\n\n\n\n",
-      "last_modified": "2022-05-03T08:26:47-10:00"
+      "last_modified": "2022-05-03T08:34:30-10:00"
     },
     {
       "path": "workshops.html",
@@ -44,7 +44,7 @@
       "description": "Links to past National MARVLS Workshops.\n",
       "author": [],
       "contents": "\n\nContents\n2020\n2018\n2016\n2014\n\n2020\n2020 Joint NSAW & MARVLS meeting: 4th National MARVLS Workshop rescheduled. In-person workshop canceled but a virtual histology workshop was held. Results from virtual histology workshop\n2018\n2018 Panama City, Florida 3rd National MARVLS Workshop\n2016\n2016 La,Jolla, 2nd National MARVLS Workshop\n2014\n2014 1st National MARVLS Workshop\n\n\n\n",
-      "last_modified": "2022-05-03T08:28:20-10:00"
+      "last_modified": "2022-05-03T08:34:48-10:00"
     }
   ],
   "collections": ["posts/posts.json"]
