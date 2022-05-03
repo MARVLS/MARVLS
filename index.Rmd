@@ -32,7 +32,19 @@ $('#button').click(function(){
 </style>
 
 <div>
+## Maturity Assessment Reproductive Variability and Life Strategies (MARVLS)
+
 Mission: To advance scientific knowledge and communicate the importance of reproductive biology in the management of marine fish and invertebrates.
+
+MARVLS aspires to integrate reproductive biology into marine resource stock assessment and management by bringing together biologists and stock assessment scientists, to collaboratively advance the knowledge of reproductive information used for setting stock assessment reference points, and to increase understanding of variability in reproductive success due to environmental, biological, and anthropogenic factors.
+
+MARVLS aims to:
+
+- Hold meetings and workshops
+- standardize methodology
+- share accomplishments and challenges
+- provide mentorship
+- increase collaboration amongst scientists
 
 <div style="float: left">[Click here to join the MARVLS email list](https://docs.google.com/spreadsheets/d/1SaHmhj6l6d6JybSbwJNL1zyfqPBK0upNVHZ_64Bf3TI/edit#gid=0)</div> 
 </div>
