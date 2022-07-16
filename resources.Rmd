@@ -1,7 +1,7 @@
 ---
 title: "Resources"
 description: |
-  Links to resources of interest to MARVLS members.
+  MARVLS affiliate labs
 output:
   distill::distill_article:
     self_contained: false
@@ -13,7 +13,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## To be developed 
+##  MARVLS affiliate labs and links coming soon 
 <details>
   
  
