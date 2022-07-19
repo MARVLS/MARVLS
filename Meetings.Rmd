@@ -16,23 +16,23 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Spring 2022
 
-[Fecundity Demonstration](https://drive.google.com/drive/folders/1wHKSjEMRHX5hbaaKGBxH5HtOnaBWMmri?usp=sharing) 
+[Fecundity Demonstration](https://drive.google.com/drive/folders/1hBrh2Zm5qAVg8P0k_0I9ff4D4d7ggn58?usp=sharing). [Link to video recording.](https://drive.google.com/file/d/15hXJcm5AtEOjJL1pzHxe4uxRIdZqxgAx/view?usp=sharing)
 
 ## Spring Bonus Seminar
 
 [ Incorporating Skipped Spawning Information Into Stock Assessments
-](https://drive.google.com/drive/folders/1RizAxtT2ZuE2flwzHd143jlLONjwMu79?usp=sharing) 
-Presentations by Melissa Head and Ben Williams. [Link to video recording.](https://drive.google.com/file/d/1ngLmiJj13knnHngQAnMiVck-LVcVJOyA/view?usp=sharing)
+](https://drive.google.com/drive/folders/1M-qfqGoNT2r5k5RvtfiDOqkaEUPFofWu?usp=sharing) 
+Presentations by Melissa Head and Ben Williams. [Link to video recording Part 1.](https://drive.google.com/file/d/1XManGQ6ufIYELZoB_L3GPTrg-W89zt2I/view?usp=sharing) [Link to video recording Part 2.](https://drive.google.com/file/d/1P3f6s17sfod2SbdOF4snUiycw9BVTDtp/view?usp=sharing)
 
 
 ## Winter 2022
 
-[Atresia Seminar](https://drive.google.com/drive/u/0/folders/12pJTfdT_uXUvx-E2qLbUMRcj-lyfKl71) Ovarian atresia was reviewed. [Link to video recording.](https://drive.google.com/file/d/1T250SwiMsvwZ3tVZLUbe2JYaeDmUciCT/view?usp=sharing) 
+[Atresia Seminar](https://drive.google.com/drive/folders/1MB-74ZE0P0hCbir6cBm0D_aonc83I52d?usp=sharing) Ovarian atresia was reviewed. [Link to video recording.](https://drive.google.com/file/d/1XpC6J49httbBrIXh13NxWnwtq-EqF0n5/view?usp=sharing) 
 
 
 ## Fall 2021
 
-[3 MARVLS presentations](https://drive.google.com/drive/folders/1H6bQ1I6GYeJAW0iFx3N2lHHHKZ0FdcLk?usp=sharing). Presentations by Ann Peterson, Brad Erisman, and Josep Planas. [Link to video recording.](https://drive.google.com/file/d/1cok6g7cCWfdXcuEPy3RELdHIk6v5ilAc/view?usp=sharing)
+[3 MARVLS presentations](https://drive.google.com/drive/folders/1Ue-6RlwnGAk4GUOURJujFpUUc4tkLlwZ?usp=sharing). Presentations by Ann Peterson, Brad Erisman, and Josep Planas. [Link to video recording.](https://drive.google.com/file/d/1k4AUU3eSGyJd575qfJr23jLntnPzIVB8/view?usp=sharing)
 
 
 
