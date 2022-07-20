@@ -1,7 +1,7 @@
 ---
 title: "Quarterly Seminar"
 description: |
-  Links to past MARVLS Quarterly Seminars.
+  Links to MARVLS Quarterly Seminars.
 output:
   distill::distill_article:
     self_contained: false
@@ -13,6 +13,17 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Summer 2022
+
+
+[Parasite Seminar](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). We will host Parasitologist Dr. Isaure de BuronIn to review fish parasites. Date will be in September and is TBD. In preparation for this seminar please submit histology images of fish parasites [here](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). Fill out the [google sheet](https://docs.google.com/spreadsheets/d/1cyqgvXTAhPRo9vrDslhxXWiPW7k1YbxWYuesRCoX1d0/edit?usp=sharing) with the link to the file in the image folder. 
+
+
+![](images/McBride_parasite.png){width=70%} 
+
+Image from [Jenkins, K. L. M., & McBride, R. S. (2009). Reproductive biology of wahoo, Acanthocybium solandri, from the Atlantic coast of Florida and the Bahamas. Marine and Freshwater research, 60(9), 893-897.](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.publish.csiro.au/MF/pdf/MF08211) Parasites labeled with "X"
+
 
 ## Spring 2022
 
