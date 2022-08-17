@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ## Summer 2022
 
 
-[Parasite Seminar](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). We will host Parasitologist Dr. Isaure de BuronIn to review fish parasites. Date will be in September and is TBD. In preparation for this seminar please submit histology images of fish parasites [here](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). Fill out the [google sheet](https://docs.google.com/spreadsheets/d/1cyqgvXTAhPRo9vrDslhxXWiPW7k1YbxWYuesRCoX1d0/edit?usp=sharing) with the link to the file in the image folder. 
+[Parasite Seminar](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). We will host Parasitologist Dr. Isaure de BuronIn to review fish parasites. Date will be September 27th 2:30 ET. In preparation for this seminar please submit histology images of fish parasites [here](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). Fill out the [google sheet](https://docs.google.com/spreadsheets/d/1cyqgvXTAhPRo9vrDslhxXWiPW7k1YbxWYuesRCoX1d0/edit?usp=sharing) with the link to the file in the image folder. 
 
 
 ![](images/McBride_parasite.png){width=70%} 
