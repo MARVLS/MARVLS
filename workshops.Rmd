@@ -1,7 +1,7 @@
 ---
 title: "Workshops"
 description: |
-  Links to past National MARVLS Workshops.
+  Links to National MARVLS Workshops.
 output:
   distill::distill_article:
     self_contained: false
