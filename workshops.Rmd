@@ -12,20 +12,21 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
+## 2023
+14th National Stock Assessment Workshop upcoming - May 9-11, 2023 at the Hotel Providence in Providence, Rhode Island. [See flyer - Call for Papers](https://drive.google.com/file/d/1QvuXZk2C7CR_uVubmQ8IztJq6R8zyDJJ/view?usp=sharing)).
+        
 ## 2020
 
 2020 Joint NSAW & MARVLS meeting: 4th National MARVLS Workshop rescheduled. In-person workshop canceled but a [virtual histology workshop was held](https://drive.google.com/drive/folders/1ppjix93fNMTv-5erjq1g_DGwFSxqWD_x?usp=sharing). [Results from virtual histology workshop](https://drive.google.com/file/d/1j2g_dVYebEBHjM1J1d2lgWCNZWcnH9KP/view?usp=sharing)
 
 ## 2018
 
-[2018 Panama City, Florida 3rd National MARVLS Workshop](https://drive.google.com/drive/folders/1Xr8jURdwEWCAR9NUYV7gyZpB193bAZa3?usp=sharing) 
+[2018 Panama City, Florida 3rd National MARVLS Workshop](https://drive.google.com/drive/folders/1Xr8jURdwEWCAR9NUYV7gyZpB193bAZa3?usp=sharing)
 
 ## 2016
 
-[2016 La,Jolla, 2nd National MARVLS Workshop](https://drive.google.com/drive/folders/1ue8ok_pfyLgiFP8KUREhAE4Qba9DdFGf?usp=sharing) 
+[2016 La,Jolla, 2nd National MARVLS Workshop](https://drive.google.com/drive/folders/1ue8ok_pfyLgiFP8KUREhAE4Qba9DdFGf?usp=sharing)
 
 ## 2014
 
-[2014 1st National MARVLS Workshop](https://drive.google.com/drive/folders/1udJwD4FAgSxu1fbDjWqon4x_inZrr8WI?usp=sharing) 
-
+[2014 1st National MARVLS Workshop](https://drive.google.com/drive/folders/1udJwD4FAgSxu1fbDjWqon4x_inZrr8WI?usp=sharing)
