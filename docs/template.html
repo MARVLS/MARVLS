@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Template</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Eli Holmes NOAA Fisheries, NWFSC" />
+    <meta name="date" content="2022-11-14" />
+    <!--radix_placeholder_navigation_in_header-->
+    <meta name="distill:offset" content=""/>
+
+    <script type="application/javascript">
+
+      window.headroom_prevent_pin = false;
+
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+
+        // initialize headroom for banner
+        var header = $('header').get(0);
+        var headerHeight = header.offsetHeight;
+        var headroom = new Headroom(header, {
+          tolerance: 5,
+          onPin : function() {
+            if (window.headroom_prevent_pin) {
+              window.headroom_prevent_pin = false;
+              headroom.unpin();
+            }
+          }
+        });
+        headroom.init();
+        if(window.location.hash)
+          headroom.unpin();
+        $(header).addClass('headroom--transition');
+
+        // offset scroll location for banner on hash change
+        // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+        window.addEventListener("hashchange", function(event) {
+          window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+        });
+
+        // responsive menu
+        $('.distill-site-header').each(function(i, val) {
+          var topnav = $(this);
+          var toggle = topnav.find('.nav-toggle');
+          toggle.on('click', function() {
+            topnav.toggleClass('responsive');
+          });
+        });
+
+        // nav dropdowns
+        $('.nav-dropbtn').click(function(e) {
+          $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+          $(this).parent().siblings('.nav-dropdown')
+             .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+        });
+        $("body").click(function(e){
+          $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+        });
+        $(".nav-dropdown").click(function(e){
+          e.stopPropagation();
+        });
+      });
+    </script>
+
+    <style type="text/css">
+
+    /* Theme (user-documented overrideables for nav appearance) */
+
+    .distill-site-nav {
+      color: rgba(255, 255, 255, 0.8);
+      background-color: #0F2E3D;
+      font-size: 15px;
+      font-weight: 300;
+    }
+
+    .distill-site-nav a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .distill-site-nav a:hover {
+      color: white;
+    }
+
+    @media print {
+      .distill-site-nav {
+        display: none;
+      }
+    }
+
+    .distill-site-header {
+
+    }
+
+    .distill-site-footer {
+
+    }
+
+
+    /* Site Header */
+
+    .distill-site-header {
+      width: 100%;
+      box-sizing: border-box;
+      z-index: 3;
+    }
+
+    .distill-site-header .nav-left {
+      display: inline-block;
+      margin-left: 8px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .distill-site-header .nav-left {
+        margin-left: 0;
+      }
+    }
+
+
+    .distill-site-header .nav-right {
+      float: right;
+      margin-right: 8px;
+    }
+
+    .distill-site-header a,
+    .distill-site-header .title {
+      display: inline-block;
+      text-align: center;
+      padding: 14px 10px 14px 10px;
+    }
+
+    .distill-site-header .title {
+      font-size: 18px;
+      min-width: 150px;
+    }
+
+    .distill-site-header .logo {
+      padding: 0;
+    }
+
+    .distill-site-header .logo img {
+      display: none;
+      max-height: 20px;
+      width: auto;
+      margin-bottom: -4px;
+    }
+
+    .distill-site-header .nav-image img {
+      max-height: 18px;
+      width: auto;
+      display: inline-block;
+      margin-bottom: -3px;
+    }
+
+
+
+    @media screen and (min-width: 1000px) {
+      .distill-site-header .logo img {
+        display: inline-block;
+      }
+      .distill-site-header .nav-left {
+        margin-left: 20px;
+      }
+      .distill-site-header .nav-right {
+        margin-right: 20px;
+      }
+      .distill-site-header .title {
+        padding-left: 12px;
+      }
+    }
+
+
+    .distill-site-header .nav-toggle {
+      display: none;
+    }
+
+    .nav-dropdown {
+      display: inline-block;
+      position: relative;
+    }
+
+    .nav-dropdown .nav-dropbtn {
+      border: none;
+      outline: none;
+      color: rgba(255, 255, 255, 0.8);
+      padding: 16px 10px;
+      background-color: transparent;
+      font-family: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      margin: 0;
+      margin-top: 1px;
+      z-index: 2;
+    }
+
+    .nav-dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 200px;
+      border: 1px solid rgba(0,0,0,0.15);
+      border-radius: 4px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+      z-index: 1;
+      margin-top: 2px;
+      white-space: nowrap;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    .nav-dropdown-content hr {
+      margin-top: 4px;
+      margin-bottom: 4px;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-dropdown-active {
+      display: block;
+    }
+
+    .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+      color: black;
+      padding: 6px 24px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .nav-dropdown-content .nav-dropdown-header {
+      display: block;
+      padding: 5px 24px;
+      padding-bottom: 0;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #999999;
+      white-space: nowrap;
+    }
+
+    .nav-dropdown:hover .nav-dropbtn {
+      color: white;
+    }
+
+    .nav-dropdown-content a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .nav-right .nav-dropdown-content {
+      margin-left: -45%;
+      right: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+      .distill-site-header a.nav-toggle {
+        float: right;
+        display: block;
+      }
+      .distill-site-header .title {
+        margin-left: 0;
+      }
+      .distill-site-header .nav-right {
+        margin-right: 0;
+      }
+      .distill-site-header {
+        overflow: hidden;
+      }
+      .nav-right .nav-dropdown-content {
+        margin-left: 0;
+      }
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .distill-site-header.responsive {position: relative; min-height: 500px; }
+      .distill-site-header.responsive a.nav-toggle {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .distill-site-header.responsive a,
+      .distill-site-header.responsive .nav-dropdown {
+        display: block;
+        text-align: left;
+      }
+      .distill-site-header.responsive .nav-left,
+      .distill-site-header.responsive .nav-right {
+        width: 100%;
+      }
+      .distill-site-header.responsive .nav-dropdown {float: none;}
+      .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+      .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+      }
+    }
+
+    /* Site Footer */
+
+    .distill-site-footer {
+      width: 100%;
+      overflow: hidden;
+      box-sizing: border-box;
+      z-index: 3;
+      margin-top: 30px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      text-align: center;
+    }
+
+    /* Headroom */
+
+    d-title {
+      padding-top: 6rem;
+    }
+
+    @media print {
+      d-title {
+        padding-top: 4rem;
+      }
+    }
+
+    .headroom {
+      z-index: 1000;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .headroom--transition {
+      transition: all .4s ease-in-out;
+    }
+
+    .headroom--unpinned {
+      top: -100px;
+    }
+
+    .headroom--pinned {
+      top: 0;
+    }
+
+    /* adjust viewport for navbar height */
+    /* helps vertically center bootstrap (non-distill) content */
+    .min-vh-100 {
+      min-height: calc(100vh - 100px) !important;
+    }
+
+    </style>
+
+    <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+    <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+    <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+    <!--/radix_placeholder_navigation_in_header-->
+    <!--radix_placeholder_site_in_header-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--/radix_placeholder_site_in_header-->
+    
+    <style type="text/css">
+    body {
+      padding-top: 60px;
+    }
+    </style>
+    <style type="text/css">
+    /* base variables */
+
+    /* Edit the CSS properties in this file to create a custom
+       Distill theme. Only edit values in the right column
+       for each row; values shown are the CSS defaults.
+       To return any property to the default,
+       you may set its value to: unset
+       All rows must end with a semi-colon.                      */
+
+    /* Optional: embed custom fonts here with `@import`          */
+    /* This must remain at the top of this file.                 */
+
+
+
+    html {
+      /*-- Main font sizes --*/
+      --title-size:      50px;
+      --body-size:       1.06rem;
+      --code-size:       14px;
+      --aside-size:      12px;
+      --fig-cap-size:    13px;
+      /*-- Main font colors --*/
+      --title-color:     #000000;
+      --header-color:    rgba(0, 0, 0, 0.8);
+      --body-color:      rgba(0, 0, 0, 0.8);
+      --aside-color:     rgba(0, 0, 0, 0.6);
+      --fig-cap-color:   rgba(0, 0, 0, 0.6);
+      /*-- Specify custom fonts ~~~ must be imported above   --*/
+      --heading-font:    sans-serif;
+      --mono-font:       monospace;
+      --body-font:       sans-serif;
+      --navbar-font:     sans-serif;  /* websites + blogs only */
+    }
+
+    /*-- ARTICLE METADATA --*/
+    d-byline {
+      --heading-size:    0.6rem;
+      --heading-color:   rgba(0, 0, 0, 0.5);
+      --body-size:       0.8rem;
+      --body-color:      rgba(0, 0, 0, 0.8);
+    }
+
+    /*-- ARTICLE TABLE OF CONTENTS --*/
+    .d-contents {
+      --heading-size:    18px;
+      --contents-size:   13px;
+    }
+
+    /*-- ARTICLE APPENDIX --*/
+    d-appendix {
+      --heading-size:    15px;
+      --heading-color:   rgba(0, 0, 0, 0.65);
+      --text-size:       0.8em;
+      --text-color:      rgba(0, 0, 0, 0.5);
+    }
+
+    /*-- WEBSITE HEADER + FOOTER --*/
+    /* These properties only apply to Distill sites and blogs  */
+
+    .distill-site-header {
+      --title-size:       18px;
+      --text-color:       rgba(255, 255, 255, 0.8);
+      --text-size:        15px;
+      --hover-color:      white;
+      --bkgd-color:       #0F2E3D;
+    }
+
+    .distill-site-footer {
+      --text-color:       rgba(255, 255, 255, 0.8);
+      --text-size:        15px;
+      --hover-color:      white;
+      --bkgd-color:       #0F2E3D;
+    }
+
+    /*-- Additional custom styles --*/
+    /* Add any additional CSS rules below                      */
+    </style>
+    <style type="text/css">
+    /* base variables */
+
+    /* Edit the CSS properties in this file to create a custom
+       Distill theme. Only edit values in the right column
+       for each row; values shown are the CSS defaults.
+       To return any property to the default,
+       you may set its value to: unset
+       All rows must end with a semi-colon.                      */
+
+    /* Optional: embed custom fonts here with `@import`          */
+    /* This must remain at the top of this file.                 */
+
+    /* Font options: Sanchez (headers / serif), Nunito Sans (body / sans-serif) */
+    @import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+    /* Code font (Roboto Mono) */
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+    html {
+      /*-- Main font sizes --*/
+      --title-size:      50px;
+      --title-weight:    400;
+      --body-size:       1.06rem;
+      --code-size:       14px;
+      --aside-size:      12px;
+      --fig-cap-size:    13px;
+      /*-- Main font colors --*/
+      --title-color:     #003660;
+      --title-weight:    400;
+      --header-color:    rgba(4, 124, 145, 1);
+      --body-color:      rgba(0, 0, 0, 0.8);
+      --aside-color:     rgba(0, 0, 0, 0.6);
+      --fig-cap-color:   rgba(0, 0, 0, 0.6);
+      /*-- Specify custom fonts ~~~ must be imported above   --*/
+      --heading-font:    Sanchez;
+      --mono-font:       Roboto Mono;
+      --body-font:       Nunito Sans;
+      --navbar-font:     Nunito Sans;  /* websites + blogs only */
+    }
+
+    /*-- ARTICLE METADATA --*/
+    d-byline {
+      --heading-size:    0.6rem;
+      --heading-color:   rgba(0, 0, 0, 0.5);
+      --body-size:       0.8rem;
+      --body-color:      rgba(0, 0, 0, 0.8);
+    }
+
+    /*-- ARTICLE TABLE OF CONTENTS --*/
+    .d-contents {
+      --heading-size:    18px;
+      --contents-size:   13px;
+    }
+
+    /*-- ARTICLE APPENDIX --*/
+    d-appendix {
+      --heading-size:    15px;
+      --heading-color:   rgba(0, 0, 0, 0.65);
+      --text-size:       0.8em;
+      --text-color:      rgba(0, 0, 0, 0.5);
+    }
+
+    /*-- WEBSITE HEADER + FOOTER --*/
+    /* These properties only apply to Distill sites and blogs  */
+
+    .distill-site-header {
+      --title-size:       20px;
+      --text-color:       rgba(255, 255, 255, 0.8);
+      --text-size:        18px;
+      --hover-color:      white;
+      --bkgd-color:       #003660;
+    }
+
+    .distill-site-footer {
+      --text-color:       rgba(255, 255, 255, 0.8);
+      --text-size:        15px;
+      --hover-color:      white;
+      --bkgd-color:       #003660;
+    }
+
+    /*-- Additional custom styles --*/
+    /* Add any additional CSS rules below                      */
+
+    d-article h1 {
+        grid-column: text;
+        font-size: 40px;
+        font-weight: 360;
+        line-height: 1.1em;
+        margin: 0 0 0.5rem;
+        padding-top: 30px;
+    }
+
+
+    d-article h2 {
+        grid-column: text;
+        font-size: 32px;
+        font-weight: 200;
+        line-height: 1.1em;
+        margin: 0 0 0.5rem;
+        padding-top: 30px;
+    }
+
+    d-article h3 {
+        grid-column: text;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.1em;
+        margin: 0 0 0.5rem;
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
+    a.title {
+      font-style: bold;
+    }
+
+    a, .nav-dropdown .nav-dropbtn {
+      font-weight: 500;
+    }
+
+
+    /* Formatting tables (can update here or individually) */
+    table, td, tr, th {
+      border-collapse: collapse;
+      font-family: Nunito Sans;
+      border: 1px solid gainsboro;
+      vertical-align: top;
+    }
+
+    d-article table th, d-article table td {
+        font-size: 15px;
+        padding: 2px 8px;
+        border: 1px solid gainsboro;
+    }
+
+    code {
+      font-family: Roboto Mono;
+    }
+
+    .distill-site-header a, .distill-site-header .title {
+        text-align: left;
+        padding: 14px 14px 14px 14px;
+    }
+
+    d-title h1 {
+        grid-column: text;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 1.1em;
+        margin: 0 0 0.5rem;
+        color: #003660;
+    }
+
+    /* Update toc list font */
+    .d-contents nav ul li {
+        font-size: 20px;
+    }
+
+
+    /* Update overall layout (body width) */
+    @media(min-width: 1180px) {
+        .base-grid,
+        distill-header,
+        d-title,
+        d-abstract,
+        d-article,
+        d-appendix,
+        distill-appendix,
+        d-byline,
+        d-footnote-list,
+        d-citation-list,
+        distill-footer {
+          grid-template-columns: [screen-start] 0.5fr [page-start kicker-start] 30px [middle-start] 50px [text-start kicker-end] 100px 100px 100px 100px 100px 100px 100px 100px [text-end gutter-start] 30px [middle-end] 50px [page-end gutter-end] 0.5fr [screen-end];
+          grid-column-gap: 20px;
+        }
+
+    /* Change navbar dropdown menu bg color */
+    .nav-dropdown-content a:hover {
+        background-color: #047C91;
+        color: black;
+    }
+       
+    /* Custom table filtering */
+       
+
+    * {
+      box-sizing: border-box;
+    }
+
+    #myInput {
+      background-image: url('/css/searchicon.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+
+
+
+    </style>
+    <style type="text/css">
+    /* base style */
+
+    /* FONT FAMILIES */
+
+    :root {
+      --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+      --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+      --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    body,
+    .posts-list .post-preview p,
+    .posts-list .description p {
+      font-family: var(--body-font), var(--body-default);
+    }
+
+    h1, h2, h3, h4, h5, h6,
+    .posts-list .post-preview h2,
+    .posts-list .description h2 {
+      font-family: var(--heading-font), var(--heading-default);
+    }
+
+    d-article div.sourceCode code,
+    d-article pre code {
+      font-family: var(--mono-font), var(--mono-default);
+    }
+
+
+    /*-- TITLE --*/
+    d-title h1,
+    .posts-list > h1 {
+      color: var(--title-color, black);
+    }
+
+    d-title h1 {
+      font-size: var(--title-size, 50px);
+    }
+
+    /*-- HEADERS --*/
+    d-article h1,
+    d-article h2,
+    d-article h3,
+    d-article h4,
+    d-article h5,
+    d-article h6 {
+      color: var(--header-color, rgba(0, 0, 0, 0.8));
+    }
+
+    /*-- BODY --*/
+    d-article > p,  /* only text inside of <p> tags */
+    d-article > ul, /* lists */
+    d-article > ol {
+      color: var(--body-color, rgba(0, 0, 0, 0.8));
+      font-size: var(--body-size, 1.06rem);
+    }
+
+
+    /*-- CODE --*/
+    d-article div.sourceCode code,
+    d-article pre code {
+      font-size: var(--code-size, 14px);
+    }
+
+    /*-- ASIDE --*/
+    d-article aside {
+      font-size: var(--aside-size, 12px);
+      color: var(--aside-color, rgba(0, 0, 0, 0.6));
+    }
+
+    /*-- FIGURE CAPTIONS --*/
+    figure .caption,
+    figure figcaption,
+    .figure .caption {
+      font-size: var(--fig-cap-size, 13px);
+      color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+    }
+
+    /*-- METADATA --*/
+    d-byline h3 {
+      font-size: var(--heading-size, 0.6rem);
+      color: var(--heading-color, rgba(0, 0, 0, 0.5));
+    }
+
+    d-byline {
+      font-size: var(--body-size, 0.8rem);
+      color: var(--body-color, rgba(0, 0, 0, 0.8));
+    }
+
+    d-byline a,
+    d-article d-byline a {
+      color: var(--body-color, rgba(0, 0, 0, 0.8));
+    }
+
+    /*-- TABLE OF CONTENTS --*/
+    .d-contents nav h3 {
+      font-size: var(--heading-size, 18px);
+    }
+
+    .d-contents nav a {
+      font-size: var(--contents-size, 13px);
+    }
+
+    /*-- APPENDIX --*/
+    d-appendix h3 {
+      font-size: var(--heading-size, 15px);
+      color: var(--heading-color, rgba(0, 0, 0, 0.65));
+    }
+
+    d-appendix {
+      font-size: var(--text-size, 0.8em);
+      color: var(--text-color, rgba(0, 0, 0, 0.5));
+    }
+
+    d-appendix d-footnote-list a.footnote-backlink {
+      color: var(--text-color, rgba(0, 0, 0, 0.5));
+    }
+
+    /*-- WEBSITE HEADER + FOOTER --*/
+    .distill-site-header .title {
+      font-size: var(--title-size, 18px);
+      font-family: var(--navbar-font), var(--heading-default);
+    }
+
+    .distill-site-header a,
+    .nav-dropdown .nav-dropbtn {
+      font-family: var(--navbar-font), var(--heading-default);
+    }
+
+    .nav-dropdown .nav-dropbtn {
+      color: var(--text-color, rgba(255, 255, 255, 0.8));
+      font-size: var(--text-size, 15px);
+    }
+
+    .distill-site-header a:hover,
+    .nav-dropdown:hover .nav-dropbtn {
+      color: var(--hover-color, white);
+    }
+
+    .distill-site-header {
+      font-size: var(--text-size, 15px);
+      color: var(--text-color, rgba(255, 255, 255, 0.8));
+      background-color: var(--bkgd-color, #0F2E3D);
+    }
+
+    .distill-site-footer {
+      font-size: var(--text-size, 15px);
+      color: var(--text-color, rgba(255, 255, 255, 0.8));
+      background-color: var(--bkgd-color, #0F2E3D);
+    }
+
+    .distill-site-footer a:hover {
+      color: var(--hover-color, white);
+    }</style>
+    <script src="/Users/eschemmel/Library/R/x86_64/4.1/library/rmarkdown/rmd/h/pandoc/header-attrs.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Template
+]
+.subtitle[
+## Basic style without tweaks of the css
+]
+.author[
+### Eli Holmes<br>NOAA Fisheries, NWFSC
+]
+.date[
+### 2022-11-14
+]
+
+---
+
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a class="logo">
+<img src="images/MARVLS_logo.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">MARVLS</a>
+</div>
+<div class="nav-right">
+<a href="index.html">Upcoming events</a>
+<a href="Meetings.html">Quarterly Seminar</a>
+<a href="workshops.html">Workshops</a>
+<a href="resources.html">Resources</a>
+<a href="highlights.html">Highlights</a>
+<a href="https://github.com/NOAA-LHP/MARVLS">
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+layout: true
+
+.footnote[U.S. Department of Commerce | National Oceanic and Atmospheric Administration | National Marine Fisheries Service]
+
+
+
+---
+
+# Notes
+
+The template and css makes a presentation that has a few tweaks in `slides-style.css`.  `slide-style.css` is adapted from An RStudio workshop on data science [design-ds-classroom](https://github.com/rstudio-conf-2020/design-ds-classroom) by [Mine Cetinkaya-Rundel](https://github.com/mine-cetinkaya-rundel). 
+
+* I have tweaked the title slide css in `slides-style.css` and needed to remove `date:` from the yaml.
+* `slides-style.css` has a number of extra customizations such as square for the bullets, some colored boxes, and a wide left column class.
+* Instead of page numbers, there is a progress bar across the top.
+* You may want to futz with the css for the title at the top of `slides-style.css`
+
+
+---
+
+## Side margin
+
+
+.left-column[
+The side margin is smaller on the left.
+
+- Figures
+- References
+- Images
+
+Everything will get scaled to fit.
+]
+.right-column[
+.hand-blue[
+
+```r
+plot(1:10)
+```
+
+![](data:image/png;base64,#template_files/figure-html/unnamed-chunk-1-1.png)&lt;!-- --&gt;
+
+
+]
+]
+
+---
+
+# Footnotes
+
+Because the NMFS footnote is already occupying the footnote space, you need to add some linefeeds to move the footnote upward. 
+
+
+
+
+.footnote[It is quite finicky. Add a linefeed and it breaks.&lt;br&gt;&lt;br&gt;]
+
+
+---
+
+# Math
+
+Weirdly it doesn't know `\begin{equation}`. You have to use `$$` bracketing.
+
+$$
+`\begin{split}
+A &amp; = \frac{\pi r^2}{2} \\
+ &amp; = \frac{1}{2} \pi r^2
+\end{split}`
+$$
+
+---
+
+class: middle
+
+# A slide with just a title
+
+---
+
+## Two column format
+
+.pull-left[
+- **ggplot2** is tidyverse's data visualization package
+- The `gg` in "ggplot2" stands for Grammar of Graphics
+- It is inspired by the book **Grammar of Graphics** by Leland Wilkinson
+]
+.pull-right[
+- **ggplot2** is tidyverse's data visualization package
+- The `gg` in "ggplot2" stands for Grammar of Graphics
+- It is inspired by the book **Grammar of Graphics** by Leland Wilkinson
+]
+
+---
+
+## Embedded video
+
+
+You can embed video.
+
+&lt;iframe width="500" height="400" src="https://www.youtube.com/embed/BCMjVc9ncFo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+    </textarea>
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+<p>This website was made with
+<u><a href="https://rstudio.github.io/distill/">distill by
+RStudio</a></u>.</p>
+</div>
+<!--/radix_placeholder_navigation_after_body-->
+
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "4:3",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "Page %current%"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+<script>(function(data, token) {
+  // data is an object of the form { path: base64 data }; we need to move base64
+  // data back to HTML nodes (e.g., into the 'src' attribute of <img>, <audio>, <video>, <source>)
+  var i, s, d, el, els;
+  els = document.querySelectorAll(['img', 'audio', 'video', 'source'].map(x => x + '[src^="' + token + '"]').join(','));
+  for (i = 0; i < els.length; i++) {
+    el = els[i]; s = el.src.replace(token, ''); d = data[s];
+    if (d) el.src = d;
+  }
+  els = document.querySelectorAll('div.remark-slide-content[style]');
+  for (i = 0; i < els.length; i++) {
+    el = els[i]; s = el.style.backgroundImage; if (!s) continue;
+    s = s.match(/^url\("?(.+?)"?\)$/); if (!s || s.length < 2) continue;
+    s = s[1].replace(token, ''); d = data[s];
+    if (d) el.style.backgroundImage = 'url("' + d + '")';
+  }
+})({
+"template_files/figure-html/unnamed-chunk-1-1.png": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfgAAAEgCAYAAABYRWE9AAAEGWlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VQNcC+8AAAA4ZVhJZk1NACoAAAAIAAGHaQAEAAAAAQAAABoAAAAAAAKgAgAEAAAAAQAAAfigAwAEAAAAAQAAASAAAAAAvctdcgAAJP5JREFUeAHt3QlwVdUZwPEvLLIkEBAwoQItiQIFlGVigRZZysiisrRUqoAQsCMwYwoStlqoDOkMZYBBECoKDFMoOCwRGpZSYicohLSAVShrwqojSwiyBhMSQv1OJ4GQB7685b57b/535k3eu8tZfue+fO+eu5ywO99NwoQAAggggAACrhKo5KraUBkEEEAAAQQQMAIEeHYEBBBAAAEEXChAgHdho1IlBBBAAAEECPDsAwgggAACCLhQgADvwkalSggggAACCBDg2QcQQAABBBBwoQAB3oWNSpUQQAABBBAgwLMPIIAAAggg4EIBArwLG5UqIYAAAgggQIBnH0AAAQQQQMCFAgR4FzYqVUIAAQQQQIAAzz6AAAIIIICACwUI8C5sVKqEAAIIIIAAAZ59AAEEEEAAARcKEOBd2KhUCQEEEEAAAQI8+wACCCCAAAIuFCDAu7BRqRICCCCAAAIEePYBBBBAAAEEXChAgHdho1IlBBBAAAEECPDsAwgggAACCLhQgADvwkalSggggAACCBDg2QcQQAABBBBwoQAB3oWNSpUQQAABBBAgwLMPIIAAAggg4EIBArwLG5UqIYAAAgggQIBnH0AAAQQQQMCFAgR4FzYqVUIAAQQQQIAAzz6AAAIIIICACwUI8C5sVKqEAAIIIIAAAZ59AAEEEEAAARcKEOBd2KhUCQEEEEAAAQI8+wACCCCAAAIuFCDAu7BRqRICCCCAAAIEePYBBBBAAAEEXChAgHdho1IlBBBAAAEECPDsAwgggAACCLhQgADvwkalSggggAACCBDg2QcQQAABBBBwoQAB3oWNSpUQQAABBBAgwLMPIIAAAggg4EIBArwLG5UqIYAAAgggQIBnH0AAAQQQQMCFAgR4FzYqVUIAAQQQQIAAzz6AAAIIIICACwUI8C5sVKqEAAIIIIAAAZ59AAEEEEAAARcKEOBd2KhUCQEEEEAAAQI8+wACCCCAAAIuFCDAu7BRqRICCCCAAAIEePYBBBBAAAEEXChAgHdho1IlBBBAAAEECPDsAwgggAACCLhQgADvwkalSggggAACCBDg2QcQQAABBBBwoQAB3oWNSpUQQAABBBAgwLMPIIAAAggg4EIBArwLG5UqIYAAAgggUMVuBIWFhXL9+nWpW7duwIu2fv160fSZEEAAAQQQsELgsccek5///OdWZFUmj7A7301l5lo849atWzJ9+nRZuXKlfP3116JFqlmzpjRt2lQSExNlxIgRfpcoOTlZ5s6dK8OHD/c7LRJAAAEEEEDAG4EFCxbIqlWrpG3btt6sHtB1bHEEn5CQIOfPn5ctW7ZITEyMhIeHy7Vr1+Tw4cMybtw4ycvLkzFjxvhVcT1yHzZsmIwaNcqvdNgYAQQQQAABbwUyMzOlqKjI29UDup4tzsFv375d3n//fXn66aclIiJCwsLCJDIyUjp16iTz58+XjRs3BrTSJIYAAggggIA3Aunp6ZKSkiKHDh3yZnVbrWOLAN+6dWtJS0vzCLN582Zp0KCBx2XMRAABBBBAIFgCeop46dKlkpWVJb169ZKFCxcGK6ugpGuLLvoZM2bI4MGDZd68eRIbGyu1a9eWq1evypEjR8xFcVu3bg1K5UkUAQQQQAABTwLLli0zXevLly83i/U0cd++fc259M6dO3vaxHbzbBHg27VrJ59//rlkZGTI6dOnzfl4PWpX0C5dupgue2/ktBslNTXV46qfffaZNGnSREaPHu1xOTMRQAABBBAoFti9e7dMnDix+KO58FuvF9P5BPgSFu/eVK9eXbp37+7dyg9Yq0OHDuYiPU+LZ82aJbm5uZ4WMQ8BBBBAAIFSAnonV3Z2trRo0aJk/pkzZ0ygL5lh8ze2OIIPlFFUVJToy9NUv3597oH3BMM8BBBAAIEyAiNHjpTx48ebC8CbNWtmLvbWu7r09LFTJlsEeL0/vaCg4IFm+gtqwIABD1zOAgQQQAABBAIpoKeOZ8+eLfHx8VKjRg3TO6xH8HqNmFMmWwR4Pe+uVyfqQ2j0Hvj7J66iv1+EzwgggAACwRaIi4sz59yDnU+w0rdFgH/33XfN1Yr6MIBFixYFq66kiwACCCCAQIURsMV98KqtF8Hp0+tu3LhRYfCpKAIIIIAAAsESsMURvFZOn2Cnz+tlQgABBBBAAAH/BWxzBO9/VUgBAQQQQAABBIoFCPDFEvxFAAEEEEDARQIEeBc1JlVBAAEEEECgWIAAXyzBXwQQQAABBFwkQIB3UWNSFQQQQAABBIoFbHMVfXGB+IsAAggg4G6BU6dOyYEDB8zdUz169HB3ZUNYO47gQ4hP1ggggEBFE9i2bZuMGjVKjh49KosXLxYdJCwvL6+iMVhSX47gLWEmEwQQQACBrKws6dOnj5w7d06io6MNiA7gMmfOHJk6dSpAARbgCD7AoCSHAAIIIOBZYM+ePWbckeLgrmslJSVJenq65w2Y65cAAd4vPjZGAAEEEPBWQEdl0zHW751ycnLkzp07987ifYAECPABgiQZBBBAAIGHC2j3vF5ct2bNGhPUtateu+h13HWmwAtwDj7wpqSIAAIIIOBBQI/gV6xYIYMHDzYjh9aqVctccNezZ08PazPLXwECvL+CbI8AAggg4LWABvVNmzZ5vT4r+i5AF73vdmyJAAIIIICAbQUI8LZtGgqGAAIIIICA7wIEeN/t2BIBBBBAAAHbChDgbds0FAwBBBBAAAHfBQjwvtuxJQIIIIAAArYVIMDbtmkoGAIIIIAAAr4LEOB9t2NLBBBAAAEEbCtAgLdt01AwBBBAAAEEfBfgQTe+27ElAgggYBuBmzdvSkZGhhQUFEjHjh2lTp06tikbBQmNgG2P4IuKiuTGjRuhUSFXBBBAwEECOmDLkCFDZOfOnbJ3716pW7euHD9+3EE1oKjBELBFgL927ZoZD7hv376SlpYmKSkpEhUVJT/4wQ/k9ddfJ9AHo+VJEwEEXCFw+/Zt6dy5s4wZM0amT58u06ZNM/9HJ02aJLm5ua6oI5XwTcAWXfR/+tOfzK/N559/XsaOHSuFhYUmyDdv3tyMMrRu3ToZMWLE99ZQfxikpqZ6XE9/2darV8/jMmYigAACThXQ4Vf1f+W9A7Z069ZNkpOT5ciRIxIXF+fUqlFuPwVsEeD/9re/yZ49eyQ8PFwuXLgg2t3UqVMnU7Xf/e53Jsh7E+A7dOggMTExHkmuXLnCr1mPMsxEAAEnC9SsWVPy8/PNgVGVKnf/pR87dkwiIiKcXDXK7qfA3b3Bz4T82fzHP/6xOfLu3r27fPrpp/Ltt9+WJKdjB7dv377k88PeaLe+vjxN9evXN18AT8uYhwACCDhVIDIyUnr37i0TJkyQpKQkqVq1qsTHx4sOzdqiRQunVotyB0DAFgE+MTFRRo4cKSdPnpTf/va3cv36ddGg36ZNG9m1a5fs2LEjAFUlCQQQQMCdAnpqc9asWdK/f3955JFHpGvXribgu7O21MpbAVsEeO2OP3z4sHzzzTfmPLl2N/3jH/8Q7VZfvny5+SXqbYVYDwEEEKhoAmFhYTJlyhTzqmh1p74PFrBFgNfi6Q5afBFctWrVpF+/fg8uNUsQQAABBBBA4KECtrhN7qElZCECCCCAAAIIlFuAAF9uMjZAAAEEEEDA/gIEePu3ESVEAAEEEECg3AIE+HKTsQECCCCAAAL2FyDA27+NKCECCCCAAALlFiDAl5uMDRBAAAEEELC/AAHe/m1ECRFAAAEEECi3gG3ugy93ydkAAQQQsEAgPT1dLl26JLGxsdKqVSsLciQLBAIjwBF8YBxJBQEEXCigj9FeunSpZGVlSa9evWThwoUurCVVcqsAR/BubVnqhQACfgksW7ZMioqKzOOyNSEdb71v377Stm1bM/66X4mzMQIWCHAEbwEyWSCAgPMEdu/eLaNGjSopuA7LmpCQIDqfCQEnCBDgndBKlBEBBCwX0ICenZ1dKt8zZ86IzmdCwAkCBHgntBJlRAABywV0COu3335bMjMzTd4bN26UcePGybBhwywvCxki4IsA5+B9UWMbBBBwvUC7du1k9uzZEh8fb4asjomJET2Cr127tuvrTgXdIUCAd0c7UgsEEAiCQFxcHOfcg+BKktYI0EVvjTO5IIAAAgggYKkAAd5SbjJDAAEEEEDAGgECvDXO5IIAAggggIClAgR4S7nJDAEEEEAAAWsECPDWOJMLAggggAAClgoQ4C3lJjMEEEAAAQSsESDAW+NMLggggAACCFgqQIC3lJvMEEAAAQQQsEbgoQ+6KSwslOvXr0vdunWtKQ25IIBAhRA4deqUHDhwQCIiIqRHjx4Vos5UEgGrBcocwd+6dUveeustady4sTzyyCPy6KOPSnh4uLRu3bpk2EQrCpmXlycFBQVWZEUeCCBgocC2bdvMKG1Hjx6VxYsXS4cOHUS/70wIIBBYgTIBXodDPHTokGzZskWuXbtmxkM+e/asLFmyxHwZ33vvvcCW4LvUvvzySzOAw759++TixYvy2muvSXR0tNSpU0d0wAf90cGEAALOF8jKypI+ffrIihUrZPLkybJu3Trp1KmTzJkzx/mVowYI2EygTBf99u3bJSMjwwTY4rJGRkaaL+H8+fPN6EpjxowpXhSQv3/4wx+kSZMm0qpVK5k5c6boqYGDBw9Kfn6+TJkyRZKSkszr+zJLSUmR1NRUj6vt3LlT6tWr53EZMxFAwBqBPXv2yMKFC0v9f9Hv96BBg6wpALkgUIEEygR47YpPS0uTV155pQzD5s2bpUGDBmXm+zvj008/Fe2u01MCGzZsEB2WsVGjRiZZ/fKPHj3aqyy0q09HfPI0XblyRXJzcz0tYh4CCFgkUKNGjZLhV4uzzMnJkTt37hR/5C8CCARIoEyAnzFjhgwePFjmzZsnsbGxZmjEq1evypEjR8yR9datWwOU9d1kmjVrZrrsfvOb30i3bt1E89BTBTrpj4onn3zy7soPeRcVFSX68jTVr1/flN/TMuYhgIA1Ato9v3LlSlmzZo05aj9//rwZY338+PHWFIBcEKhAAmHf/XIu89NZL3jRbvrTp0+LfgH1qF2DbJcuXSQsLCzgPCdOnJAXX3zRnHN/4oknZO3atdKyZUupVKmSuQ5Aj/AbNmzoV75vvvmmqcuHH37oVzpsjAAC/gnonTl6EKEHDrVq1TIX3PXr18+/RNkaAZsKJCYmypAhQ6R9+/aWl7DMEbyWoHr16tK9e3fLCqM9BYcPHzbnz48dO2bOx+utefqj4oUXXpAqVTwW07LykRECCAROQIP6pk2bApcgKSGAgEcB20RO7Rno2bOneXksKTMRQAABBBBAwGuBMgF+7ty5D73/vEWLFjJgwACvM2BFBBBAAAEEELBeoEyA1/PuehvL8OHDzQNu7i9SMK6ivz8PPiOAAAIIIICAfwJlAvy7775rHm5TVFQkixYt8i91tkYAAQQQQACBkAiUeZKdlmLWrFnm6vUbN26EpFBkigACCCCAAAL+CZQ5gtfkdACIVatW+ZcyWyOAAAIIIIBAyAQ8HsFrafTJcvv37y9VsMzMTPniiy9KzeMDAggggAACCNhP4IEBfvXq1WZwmXuLrE+f0gvwmBBAAAEEEEDA3gIeu+i1yPrI2vunadOm3T+LzwggYBOBmzdvmidQ6jDLHTt2NE+GtEnRKAYCCIRA4IFH8CEoC1kigICPAjpgiz4OU0dN3Lt3r+iTII8fP+5jamyGAAJuEHjgEbwbKkcdEKgIArdv35bOnTvLggULSp4E+eyzz8qkSZPMwC7h4eEVgYE6IoDAfQJlAjxPsrtPiI8I2FwgOztbmjdvXhLctbg6KmNycrIZBTIuLs7mNaB4CCAQDIEyAZ4n2QWDmTQRCJ5AzZo1JT8/3wyHfO/ATDpwk97yyoQAAhVToEyA50l2FXNHoNbOFYiMjJTevXvLhAkTJCkpSapWrSrx8fFSo0YN0bEjmBBAoGIKeLzIjifZVcydgVo7V2Ds2LESHR0t/fv3N4NBtWnTRtavX+/cClFyBBDwW6DMEbymyJPs/HYlAQQsFdDhlqdMmWJelmZMZgggYFsBj0fwti0tBUMAAQQQQAABrwQI8F4xsRICCCCAAALOEiDAO6u9KC0CCCCAAAJeCRDgvWJiJQQQQAABBJwlQIB3VntRWgQQQAABBLwSIMB7xcRKCCCAAAIIOEuAAO+s9qK0CCCAAAIIeCVAgPeKiZUQQAABBBBwloDHB904qwqUFoHgCqSnp8ulS5ckNjZWWrVqFdzMSB0BBBAIkIBtj+Dz8vLk2rVrAaomySDgm0BiYqIsXbpUsrKypFevXrJw4ULfEmIrBBBAwGIB2wZ4Hepy/PjxFnOQHQJ3BZYtWyZFRUWyfPly0UCfmZkpGzZskF27dt1diXcIIICATQVs0UX/5JNPSk5OTimiW7dumeEvNdAPGDDA/JMttYKHDykpKZKamuphicjOnTulXr16HpcxEwFPArt375aJEyeWLNJhWRMSEkTnd+7cuWQ+bxBAAAE7CtgiwOsR0siRI2Xo0KEyfPhw47Rx40bJyMgQHdkuPDzcK7sOHTpITEyMx3WvXLkiubm5HpcxEwFPAhrQs7OzSw25eubMGdH5TAgggIDdBWwR4PVoaN++ffLGG2+Ybvn3339f6tevb0a1++EPf+i1YVRUlOjL06TpFRYWelrEPAQ8CuiPTj1NpPtjs2bNRH90jhs3Tq5evepxfWYigAACdhKwRYBXkNq1a8uKFStk7dq10qVLF9Gj8cqVK9vJirJUMIF27drJ7NmzJT4+XmrUqGF6h/QIXvdVJgQQQMDuArYJ8MVQgwYNkp/+9KcyZswYadOmTfFs/iIQEoG4uDhzzj0kmZMpAggg4IeA7QK81qVRo0ayadMmP6rFpggggAACCFRsAdveJlexm4XaI4AAAggg4J8AAd4/P7ZGAAEEEEDAlgIEeFs2C4VCAAEEEEDAPwECvH9+bI0AAggggIAtBQjwtmwWCoUAAggggIB/AgR4//zYGgEEEEAAAVsKEOBt2SwUCgEEEEAAAf8EbHkfvH9VYmsnCJw6dUoOHDhgHkfco0cPJxSZMiKAAAKOEuAI3lHN5Y7Cbtu2TUaNGiVHjx6VxYsXm8cS5+XluaNy1AIBBBCwiQBH8DZpiIpSjKysLOnTp4+cO3dOoqOjTbV1AJc5c+bI1KlTKwoD9UQAAQSCLsARfNCJyeBegT179siiRYtKgrsuS0pKkvT09HtX4z0CCCCAgJ8CBHg/Adm8fAI6KtuFCxdKbZSTkyN37twpNY8PCCCAAAL+CRDg/fNj63IKaPe8Xly3Zs0aE9S1q1676HXcdSYEEEAAgcAJcA4+cJak5IWAHsGvWLFCBg8ebLrqa9WqZS6469mzpxdbswoCCCCAgLcCBHhvpVgvYAIa1BkOOGCcJIQAAgh4FKCL3iMLMxFAAAEEEHC2AAHe2e1H6RFAAAEEEPAoQID3yMJMBBBAAAEEnC1AgHd2+1F6BBBAAAEEPAoQ4D2yMBMBBBBAAAFnCxDgnd1+lB4BBBBAAAGPAgR4jyzMRAABBBBAwNkCBHhntx+lRwABBBBAwKMAD7rxyOLMmTdv3pSMjAwpKCiQjh07Sp06dZxZEUqNAAIIIOC3gO2P4G/fvi35+fl+V9TtCeiALUOGDJGdO3fK3r17pW7dunL8+HG3V5v6IYAAAgg8QMAWAf6rr76SYcOGSUREhDz33HOlAtO6devk1VdffUDxma0C+iOoc+fOMmbMGJk+fbpMmzZN0tLSZNKkSZKbmwsSAggggEAFFLBFF/28efOkYcOGsm/fPlm9erV06dJFduzYIc2aNStXk6SkpEhqaqrHbfTItl69eh6XOX1mdna2NG/eXO4dsKVbt26SnJwsR44ckbi4OKdXkfIjgAACCJRTwBYBfuvWrfL555+LjjQ2Y8YMadmypfTq1Ut27dpVrup06NBBYmJiPG4TFRXl2jHHa9asaU5jFBYWSpUqd5v02LFjplfEIwgzEUAAAQRcLXA3GoSwmhrQ9ej92WefNaV4+eWX5ezZs6Jjh48aNcrrkmkQ15en6dChQ3L58mVPixw/LzIyUnr37i0TJkyQpKQkqVq1qsTHx5sfTC1atHB8/agAAggggED5BWxxDn706NHy0ksvyaxZs0pqMH78eBk4cKC8+eabJfN482CBsWPHSnR0tPTv318GDBggbdq0kfXr1z94A5YggAACCLhawBZH8Hru+MSJE3Ly5MlS2G+//bZ07drVLCu1gA9lBMLCwmTKlCnmVWYhMxBAAAEEKpyALQK8qoeHh8tTTz1VpgH0YjF9MSGAAAIIIICA9wK26KL3vrisiQACCCCAAALeCBDgvVFiHQQQQAABBBwmQIB3WINRXAQQQAABBLwRIMB7o8Q6CCCAAAIIOEyAAO+wBqO4CCCAAAIIeCNAgPdGiXUQQAABBBBwmAAB3mENRnERQAABBBDwRsA298F7U9hQrZOeni6XLl2S2NhYadWqVaiKQb4IIIAAAgh4LcAR/PdQJSYmytKlSyUrK8sMgLNw4cLv2YLFCCCAAAIIhF6AI/iHtMGyZcukqKhIli9fbtbS8db79u0rbdu2NeOvP2RTFiGAAAIIIBBSAY7gH8K/e/fuUqPZ6bCsCQkJovOZEEAAAQQQsLMAAf4hraMBPTs7u9Qap0+fFp3PhAACCCCAgJ0FCPAPaZ2RI0eKjmiXmZlp1tq4caMZvnbYsGEP2YpFCCCAAAIIhF6Ac/APaYN27drJ7NmzJT4+XmrUqCExMTFy5swZqV279kO2YhECCCCAAAKhFyDAf08bxMXFcc79e4xYjAACCCBgPwG66O3XJpQIAQQQQAABvwXC7nw3+Z2KAxL44osv5IUXXhDtdnfzpBcB6qtatWpurqbldcvNzZXw8HDL83Vzhjdv3pTq1atLpUocZwSqnQsKCsytvXz/AyX6/3Ru3bolXbt29SnRkydPSmpqqjz++OM+be/PRhUmwPuD5KRtU1JS5MSJE+ZiQCeV2+5l7datm+zYscPuxXRU+YYOHSqzZs0KyT8+R0GVo7B8/8uBVY5Vnfr956dzORqZVRFAAAEEEHCKAAHeKS1FORFAAAEEECiHAAG+HFisigACCCCAgFMECPBOaSnKiQACCCCAQDkECPDlwGJVBBBAAAEEnCJAgHdKS1FOBBBAAAEEyiHAbXLlwHLCqnpvsd4LGxkZ6YTiOqaM586dk4YNGzqmvE4o6MWLF+XRRx+VypUrO6G4jigj3//gNJNTv/8E+ODsD6SKAAIIIIBASAXoog8pP5kjgAACCCAQHAECfHBcSRUBBBBAAIGQChDgQ8pP5ggggAACCARHgAAfHFdSRQABBBBAIKQCBPiQ8pM5AggggAACwREgwAfHlVQRQAABBBAIqQABPqT8ZI4AAggggEBwBAjwwXElVQQQQAABBwsUFhbKnTt3HFwDEQK8o5vvbuF1Z5w8ebI8/fTT5jVt2jTzRLu7a/DOH4Ht27ebp675kwbb/l/gxo0bMmzYMPnRj34k7du3l9WrV0MTAIE//vGP5ruvpu+8804AUqy4SVy4cEFiYmLk5MmTJQiXL1+WQYMGSaNGjeSpp56Szz77rGSZXd8Q4O3aMuUs11/+8hc5ePCg7N6927z27t0rK1asKGcqrO5J4MqVKzJ+/HjH/5r3VLdQzPv9738v9erVkxMnTkhycrJMnz5d9LG1TL4LpKamykcffWS++2lpafLnP/9Z/vWvf/meYAXectWqVdKjRw85f/58KYUxY8bIE088IadPn5aZM2dKv379JC8vr9Q6dvtAgLdbi/hYHj1ynz9/vkRERJhXu3btZNeuXT6mxmb3CowdO1YSEhIkLCzs3tm890Hg9u3b8sEHH5igrmMm6NFQZmamNGjQwIfU2KRYIDs7W6pVq2a++zoORc2aNeXs2bPFi/nrpcCtW7dk+fLlsn79eqlTp06prbZu3Wp+6FepUkVefPFFiY6Olp07d5Zax24fCPB2axEfy/PMM8+YX5e6uQ448eGHH8rzzz/vY2psViywYcMGKSoqkj59+hTP4q8fAtr1GR4eLvPmzZP69eubf6LLli3zI0U2VYFf/OIXEhUVJd27d5cuXbqY/wV8/8u/bzzyyCPy8ccfS4sWLUptrL14+fn5Zp8tXqABXn9Y2XkiwNu5dXwom56LHzp0qDkX99JLL/mQApsUC2i3sV7LwPnMYhH//+o/RD2XqUft2tWpp5EmTpwoeuTE5LuAWp46dUqaNGliRj3Uz/d3MfueOlvm5OSYH6b3SugPVb2exM4TAd7OrVPOsmlwf/nll0V/ba5du7acW7P6/QLaLa9HRAcOHDDnNrVLWc9vEozul/L+s3Yfa4/I1KlTzdHQwIEDzcVM//znP71PhDXLCMyZM0d69eolei3OmjVr5Cc/+YnMnTu3zHrM8E1Arxm5fv16qY2vXbtm+yGkq5QqMR8cK6D/NOPj483FSnquqHr16o6ti10Knpubay5c1KCuwV1PfWjQ/+STT8xFYnYpp5PK0bBhQ6lUqVKpOxJq1apljuqdVA+7lVWP3rWbvnj62c9+JitXriz+yF8/BerWrSvafX/vuPBffvmlNG7c2M+Ug7s5R/DB9bUs9cWLF5sjzZSUFBPc9WImDfpMvgts2rTJBHi9O0GvUtajT32vv+aZfBPQH579+/eX4vPu2pX873//Wzp16uRbgmxlBH7961/LunXrzHvtydP3Oo8pcAK/+tWvZMGCBeb/qt42qz/6W7ZsGbgMgpBS2Hc38jv7Tv4goDgxyaZNm4r+s7x30otstmzZcu8s3vsooL/W27ZtK998842PKbBZsYAeber9xHqqQ88T6y1HI0eOLF7MXx8EtLt4woQJsn//fnNeWC+00257PU/M5JvAY489JhkZGRIbG2sS0Hvi9er5b7/9VipXrixLliwxp/B8S92arQjw1jiTCwII3CegFy5p16f+s2QKjIDel62nQLQ7mSk4AnrxrVNu6yTAB2cfIFUEEEAAAQRCKsA5+JDykzkCCCCAAALBESDAB8eVVBFAAAEEEAipAAE+pPxkjgACCCCAQHAECPDBcSVVBBBAAAEEQipAgA8pP5kjgAACCCAQHAECfHBcSRUBBBBAAIGQChDgQ8pP5ggggAACCARHgAAfHFdSRQABBBBAIKQCBPiQ8pM5AggggAACwREgwAfHlVQRQAABBBAIqQABPqT8ZI4AAggggEBwBAjwwXElVQQQQAABBEIqQIAPKT+ZI4AAAgggEBwBAnxwXEkVAQQQQACBkAoQ4EPKT+YIIIAAAggER4AAHxxXUkUAAQQQQCCkAgT4kPKTOQIIIIAAAsERIMAHx5VUEUAAAQQQCKkAAT6k/GSOgLUCe/bskfr165c704SEBJk5c2a5t2MDBBAInQABPnT25IwAAggggEDQBAjwQaMlYQTsLfDf//5Xhg8fLuPGjZN69epJu3btROcVT4mJidKwYUPp0qWLfP3118WzJScnR375y19KnTp1pE2bNrJr1y6z7IMPPpABAwbInTt3zOdXXnlFlixZUrIdbxBAwFoBAry13uSGgG0E8vLy5K9//avUqlVL9u/fL88884y89dZbpnzvvfeepKWlyccffyyvv/66bN68uaTcr732moSHh8uhQ4fkjTfekPj4eLPs1VdfNT8QVq9eLStXrjRpDhs2rGQ73iCAgLUCVazNjtwQQMBOAhrcZ8yYIWFhYTJ48GATsLV8H330kYwYMUJatWplXosWLTLFvnz5sgn2WVlZ0qBBA9MDoD8SDh48KK1bt5bFixfLyJEjpaCgQDZs2CDVqlWzU3UpCwIVSoAAX6Gam8oiUFogKirKBHedGxERIYWFhWYFDeBxcXElK3fs2NG8P3PmjOmCb9u2bckyfbNjxw4T4J977jnRNGvUqCGdOnUqtQ4fEEDAWgG66K31JjcEbCWgR+6epscff1wyMzNLFn311Vfmfd26daVKlSqigf7atWvmde7cuZIj/7///e9y8eJFOX36tOh7JgQQCJ0AAT509uSMgG0FunbtKsnJyZKfny/Z2dnyySefmLI2btxYmjZtKsuWLTOftcs+NjZW/vOf/8j169dl1KhRsnDhQnnnnXfMe53HhAACoREgwIfGnVwRsLXA9OnTTfmaNWsm7du3N1fY64xKlSqZC+j0XLsu0254vQpf15k8ebK5UK9v374ycOBA0W58nceEAAKhEQj77paW/9/TEpr8yRUBBGwscPXqVXPFvHbL3z9pV7w+NOdB3fz3r89nBBCwVoAAb603uSGAAAIIIGCJAF30ljCTCQIIIIAAAtYKEOCt9SY3BBBAAAEELBEgwFvCTCYIIIAAAghYK0CAt9ab3BBAAAEEELBEgABvCTOZIIAAAgggYK0AAd5ab3JDAAEEEEDAEgECvCXMZIIAAggggIC1AgR4a73JDQEEEEAAAUsECPCWMJMJAggggAAC1goQ4K31JjcEEEAAAQQsESDAW8JMJggggAACCFgrQIC31pvcEEAAAQQQsESAAG8JM5kggAACCCBgrQAB3lpvckMAAQQQQMASAQK8JcxkggACCCCAgLUCBHhrvckNAQQQQAABSwT+B3nDF4tRhwFrAAAAAElFTkSuQmCC"
+}, 'data:image/png;base64,#');</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
