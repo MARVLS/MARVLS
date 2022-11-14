@@ -19,7 +19,9 @@ navbar:
     - text: "Resources"
       href: resources.html      
     - text: "Highlights"
-      href: highlights.html    
+      href: highlights.html  
+    - text: "Contribute"
+      href: website_presentation.html
     - icon: fab fa-github
       href: https://github.com/NOAA-LHP/MARVLS
 theme: theme.css
