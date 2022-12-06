@@ -1,5 +1,5 @@
 ---
-title: "C. argus"
+title: "Cephalophilos argus"
 format: html
 editor: visual
 ---
@@ -15,3 +15,11 @@ editor: visual
 ![](images/C.argus/Slide4.png)
 
 ![](images/C.argus/Slide5.png)
+
+![](images/C.argus/Slide6.png)
+
+![](images/C.argus/Slide9.png)
+
+![](images/C.argus/Slide8.png)
+
+![](images/C.argus/Slide7.png)
