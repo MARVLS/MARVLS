@@ -16,6 +16,8 @@ navbar:
       href: Meetings.html
     - text: "Workshops"
       href: workshops.html
+    - text: "Histology"
+      href: histology_workshops.html
     - text: "Resources"
       href: resources.html      
     - text: "Highlights"
