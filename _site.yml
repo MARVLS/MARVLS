@@ -1,4 +1,4 @@
-name: "."
+name: "MARVLS"
 title: "MARVLS"
 description: |
   MARVLS events and materials
@@ -26,13 +26,9 @@ navbar:
       href: website_presentation.html
     - icon: fab fa-github
       href: https://github.com/MARVLS/MARVLS
-theme: theme.css
 output:
   distill::distill_article:
+    css: theme.css
     includes:
       in_header:
       - _header.html
-collections:
-  posts: 
-    categories: true
-    share: [twitter, linkedin]

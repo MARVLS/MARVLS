@@ -55,30 +55,30 @@ d-byline {
   --contents-size:   13px;
 }
 
-/*-- ARTICLE APPENDIX --*/
-d-appendix {
-  --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8em;
-  --text-color:      rgba(0, 0, 0, 0.5);
+/* These properties only apply to Distill pages (like index.html)  */
+
+body {
+    font-family: "Nunito Sans";
 }
 
-/*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
+/* --------------Navbar-------------------- */
 
-.distill-site-header {
-  --title-size:       20px;
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        18px;
-  --hover-color:      white;
-  --bkgd-color:       #003660;
+.distill-site-header{ 
+  title-size: 20px;
+  text-color: rgba(255, 255, 255, 0.8);
+  text-size: 18px;
+  hover-color:  white;
+  background-color: #003660;
+  font-size: 14px;
+  font-family: "Nunito Sans";
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #003660;
+  text-color:       rgba(255, 255, 255, 0.8);
+  text-size:        15px;
+  hover-color:      white;
+  background-color: #003660;
+  font-family: "Nunito Sans";
 }
 
 /*-- Additional custom styles --*/
@@ -121,7 +121,6 @@ a, .nav-dropdown .nav-dropbtn {
   font-weight: 500;
 }
 
-
 /* Formatting tables (can update here or individually) */
 table, td, tr, th {
   border-collapse: collapse;
@@ -145,6 +144,7 @@ code {
     padding: 14px 14px 14px 14px;
 }
 
+
 d-title h1 {
     grid-column: text;
     font-size: 40px;
@@ -158,48 +158,5 @@ d-title h1 {
 .d-contents nav ul li {
     font-size: 20px;
 }
-
-
-/* Update overall layout (body width) */
-@media(min-width: 1180px) {
-    .base-grid,
-    distill-header,
-    d-title,
-    d-abstract,
-    d-article,
-    d-appendix,
-    distill-appendix,
-    d-byline,
-    d-footnote-list,
-    d-citation-list,
-    distill-footer {
-      grid-template-columns: [screen-start] 0.5fr [page-start kicker-start] 30px [middle-start] 50px [text-start kicker-end] 100px 100px 100px 100px 100px 100px 100px 100px [text-end gutter-start] 30px [middle-end] 50px [page-end gutter-end] 0.5fr [screen-end];
-      grid-column-gap: 20px;
-    }
-
-/* Change navbar dropdown menu bg color */
-.nav-dropdown-content a:hover {
-    background-color: #047C91;
-    color: black;
-}
-   
-/* Custom table filtering */
-   
-
-* {
-  box-sizing: border-box;
-}
-
-#myInput {
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-}
-
-
 
 
