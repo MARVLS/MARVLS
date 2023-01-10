@@ -2,6 +2,12 @@
 title: "Highlights"
 
 ---
+# 2022 Literature Highlights coming soon
+Some literature of interest:
+
+Fish, T., Wolf, N., Harris, B.P. and Planas, J.V., 2020. A comprehensive description of oocyte developmental stages in Pacific halibut, Hippoglossus stenolepis. Journal of Fish Biology, 97(6), pp.1880-1885.https://doi.org/10.3389/fmars.2022.
+
+Jasonowicz, A.J., Simeon, A., Zahm, M., Cabau, C., Klopp, C., Roques, C., Iampietro, C., Lluch, J., Donnadieu, C., Parrinello, H. and Drinan, D.P., 2022. Generation of a chromosome‐level genome assembly for Pacific halibut (Hippoglossus stenolepis) and characterization of its sex‐determining genomic region. Molecular Ecology Resources. https://doi.org/10.1111/1755-0998.13641.
 
 # 2021 Literature Highlights
 [endnote library](https://drive.google.com/drive/folders/12jP4FuEKeZcY1bcH6h7AC8mbl9HezUnO?usp=sharing)
