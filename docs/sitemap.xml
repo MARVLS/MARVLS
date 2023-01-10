@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/highlights.html</loc>
-    <lastmod>2022-11-14T09:16:20-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/highlights.html</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/histology.html</loc>
-    <lastmod>2023-01-09T13:36:04-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/histology.html</loc>
+    <lastmod>2023-01-09T16:34:17-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/</loc>
-    <lastmod>2022-12-06T08:50:32-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/LICENSE.html</loc>
-    <lastmod>2022-08-29T15:43:12-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/LICENSE.html</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/Meetings.html</loc>
-    <lastmod>2022-12-06T08:52:24-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/Meetings.html</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/posts.html</loc>
-    <lastmod>2022-04-21T10:08:32-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/resources.html</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
   <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/repos.html</loc>
-    <lastmod>2022-09-22T12:25:45-10:00</lastmod>
-  </url>
-  <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/resources.html</loc>
-    <lastmod>2022-10-14T12:42:49-10:00</lastmod>
-  </url>
-  <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/workshops.html</loc>
-    <lastmod>2022-10-18T12:05:19-10:00</lastmod>
-  </url>
-  <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/posts/2021-09-28-vdiffr/</loc>
-    <lastmod>2022-04-21T10:08:32-10:00</lastmod>
-  </url>
-  <url>
-    <loc>https://noaa-lhp.github.io/MARVLS/posts/2021-09-15-welcome/</loc>
-    <lastmod>2022-04-21T10:08:32-10:00</lastmod>
+    <loc>https://marvls.github.io/MARVLS/workshops.html</loc>
+    <lastmod>2023-01-09T16:34:10-08:00</lastmod>
   </url>
 </urlset>
