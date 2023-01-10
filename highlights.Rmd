@@ -9,6 +9,10 @@ Fish, T., Wolf, N., Harris, B.P. and Planas, J.V., 2020. A comprehensive descrip
 
 Jasonowicz, A.J., Simeon, A., Zahm, M., Cabau, C., Klopp, C., Roques, C., Iampietro, C., Lluch, J., Donnadieu, C., Parrinello, H. and Drinan, D.P., 2022. Generation of a chromosome‐level genome assembly for Pacific halibut (Hippoglossus stenolepis) and characterization of its sex‐determining genomic region. Molecular Ecology Resources. https://doi.org/10.1111/1755-0998.13641.
 
+McBride, R.S., Fairchild, E.A., Press, Y.K., Elzey, S.P., Adams, C.F. and Bentzen, P., 2022. A Life History Study of Atlantic Wolffish Resolves Bias and Imprecision in Length‐and Age‐at‐Maturity Schedules by Recognizing Abortive Maturation. Marine and Coastal Fisheries, 14(5), p.e10222. https://doi.org/10.1002/mcf2.10222 
+
+McBride, R.S., Maynard, G.A., Elzey, S.P., Hennen, D.R., Tholke, E.K., Runnebaum, J.M. and McGuire, C.H., 2022. Evaluating growth dimorphism, maturation, and skip spawning of Atlantic halibut in the Gulf of Maine using a collaborative research approach. J. Northw. Atl. Fish. Sci, 53, pp.57-77. [available here](https://journal.nafo.int/dnn/Volumes/Articles/ID/676/Evaluating-growth-dimorphism-maturation-and-skip-spawning-of-Atlantic-halibut-in-the-Gulf-of-Maine-using-a-collaborative-research-approach)
+
 # 2021 Literature Highlights
 [endnote library](https://drive.google.com/drive/folders/12jP4FuEKeZcY1bcH6h7AC8mbl9HezUnO?usp=sharing)
 
