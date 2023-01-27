@@ -7,49 +7,93 @@ output:
     self_contained: false
     toc: true
     toc_depth: 3
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+## Winter 2023
+
+[Maturity
+Seminar](https://drive.google.com/file/d/1c-8odvb35c9q5k-MYXl-KnOpF0GMg3O9/view?usp=share_link).
+We had five presentations:
+
+1.  Susan Lowerre-Barbieri: Determining female maturity: Indicators and
+    analytical approaches.
+
+2.  Nancy Brown-Peterson, Ashley Pacicco and Erin Reed: Histological
+    Maturity Designations and L50 Values.
+
+3.  Kevin Kolmos and David Wyanski: Approaches to Maturity Analyses by
+    the SouthEast Reef Fish Survey
+
+4.  Lyndsey Lefebvre: Maturity assessment in Sebastes
+
+5.  Richard McBride: Measuring the gonad wall as an index of maturity:
+    Through thick and thin
+
+6.  Rosario Domínguez Petit: Maturity Assessment in the ICES
+
+[Link to video
+recording](https://drive.google.com/file/d/1c-8odvb35c9q5k-MYXl-KnOpF0GMg3O9/view?usp=share_link).
+<https://drive.google.com/file/d/1c-8odvb35c9q5k-MYXl-KnOpF0GMg3O9/view?usp=share_link>
+
 ## Fall 2022
 
-
-Website and learning center review. you can suggest changes to the website [here](https://github.com/MARVLS/MARVLS/issues).
-        
-
+Website and learning center review. you can suggest changes to the
+website [here](https://github.com/MARVLS/MARVLS/issues).
 
 ## Summer 2022
 
+[Parasite
+Seminar](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing).
+Parasitologist Dr. Isaure de Buron reviewed fish parasites from
+histology images of fish parasites submitted
+[here](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing).
+[Link to video
+recording.](https://drive.google.com/file/d/1bjjDk1itYthr1AOtmgn9gmibUNwK2QQQ/view?usp=sharing)
+There are also some good references in the google folder.
 
-[Parasite Seminar](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing).  Parasitologist Dr. Isaure de Buron reviewed fish parasites from histology images of fish parasites submitted [here](https://drive.google.com/drive/folders/1Kjj59hXDyvghe2M0NrIvB_rCoK7jcAp7?usp=sharing). [Link to video recording.](https://drive.google.com/file/d/1bjjDk1itYthr1AOtmgn9gmibUNwK2QQQ/view?usp=sharing) There are also some good references in the google folder.
+![](images/McBride_parasite.png){width="70%"}
 
-
-![](images/McBride_parasite.png){width=70%} 
-
-Image from [Jenkins, K. L. M., & McBride, R. S. (2009). Reproductive biology of wahoo, Acanthocybium solandri, from the Atlantic coast of Florida and the Bahamas. Marine and Freshwater research, 60(9), 893-897.](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.publish.csiro.au/MF/pdf/MF08211) Parasites labeled with "X"
-
+Image from [Jenkins, K. L. M., & McBride, R. S. (2009). Reproductive
+biology of wahoo, Acanthocybium solandri, from the Atlantic coast of
+Florida and the Bahamas. Marine and Freshwater research, 60(9),
+893-897.](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.publish.csiro.au/MF/pdf/MF08211)
+Parasites labeled with "X"
 
 ## Spring 2022
 
-[Fecundity Demonstration](https://drive.google.com/drive/folders/1hBrh2Zm5qAVg8P0k_0I9ff4D4d7ggn58?usp=sharing). [Link to video recording.](https://drive.google.com/file/d/15hXJcm5AtEOjJL1pzHxe4uxRIdZqxgAx/view?usp=sharing)
+[Fecundity
+Demonstration](https://drive.google.com/drive/folders/1hBrh2Zm5qAVg8P0k_0I9ff4D4d7ggn58?usp=sharing).
+[Link to video
+recording.](https://drive.google.com/file/d/15hXJcm5AtEOjJL1pzHxe4uxRIdZqxgAx/view?usp=sharing)
 
 ## Spring Bonus Seminar
 
-[ Incorporating Skipped Spawning Information Into Stock Assessments
-](https://drive.google.com/drive/folders/1M-qfqGoNT2r5k5RvtfiDOqkaEUPFofWu?usp=sharing) 
-Presentations by Melissa Head and Ben Williams. [Link to video recording Part 1.](https://drive.google.com/file/d/1XManGQ6ufIYELZoB_L3GPTrg-W89zt2I/view?usp=sharing) [Link to video recording Part 2.](https://drive.google.com/file/d/1P3f6s17sfod2SbdOF4snUiycw9BVTDtp/view?usp=sharing)
-
+[Incorporating Skipped Spawning Information Into Stock
+Assessments](https://drive.google.com/drive/folders/1M-qfqGoNT2r5k5RvtfiDOqkaEUPFofWu?usp=sharing)
+Presentations by Melissa Head and Ben Williams. [Link to video recording
+Part
+1.](https://drive.google.com/file/d/1XManGQ6ufIYELZoB_L3GPTrg-W89zt2I/view?usp=sharing)
+[Link to video recording Part
+2.](https://drive.google.com/file/d/1P3f6s17sfod2SbdOF4snUiycw9BVTDtp/view?usp=sharing)
 
 ## Winter 2022
 
-[Atresia Seminar](https://drive.google.com/drive/folders/1MB-74ZE0P0hCbir6cBm0D_aonc83I52d?usp=sharing) Ovarian atresia was reviewed. [Link to video recording.](https://drive.google.com/file/d/1XpC6J49httbBrIXh13NxWnwtq-EqF0n5/view?usp=sharing) 
-
+[Atresia
+Seminar](https://drive.google.com/drive/folders/1MB-74ZE0P0hCbir6cBm0D_aonc83I52d?usp=sharing)
+Ovarian atresia was reviewed. [Link to video
+recording.](https://drive.google.com/file/d/1XpC6J49httbBrIXh13NxWnwtq-EqF0n5/view?usp=sharing)
 
 ## Fall 2021
 
-[3 MARVLS presentations](https://drive.google.com/drive/folders/1Ue-6RlwnGAk4GUOURJujFpUUc4tkLlwZ?usp=sharing). Presentations by Ann Peterson, Brad Erisman, and Josep Planas. [Link to video recording.](https://drive.google.com/file/d/1k4AUU3eSGyJd575qfJr23jLntnPzIVB8/view?usp=sharing)
-
-
-
+[3 MARVLS
+presentations](https://drive.google.com/drive/folders/1Ue-6RlwnGAk4GUOURJujFpUUc4tkLlwZ?usp=sharing).
+Presentations by Ann Peterson, Brad Erisman, and Josep Planas. [Link to
+video
+recording.](https://drive.google.com/file/d/1k4AUU3eSGyJd575qfJr23jLntnPzIVB8/view?usp=sharing)
