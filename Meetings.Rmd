@@ -44,7 +44,7 @@ recording](https://drive.google.com/file/d/1c-8odvb35c9q5k-MYXl-KnOpF0GMg3O9/vie
 
 ## Fall 2022
 
-Website and learning center review. you can suggest changes to the
+Website and learning center review. You can suggest changes to the
 website [here](https://github.com/MARVLS/MARVLS/issues).
 
 ## Summer 2022
