@@ -2,9 +2,55 @@
 title: "Highlights"
 
 ---
-# 2022 Literature Highlights coming soon
-Some literature of interest:
+# 2022 Literature Highlights 
+Brown-Peterson NJ, Millender AK. 2022. The Reproductive Biology of Red Snapper in Mississippi Waters. SEDAR74-DW-9 SEDAR, North Charleston, SC 34 p. https://sedarweb.org/documents/sedar-74-dw-09-the-reproductive-biology-of-red-snapper-in-mississippi-waters/        
 
+Brown-Peterson NJ, Wu W, Slife C, Dillon KS, Leontiou AJ. 2022. Variations in Red Snapper oocyte development and spawning in relation to environmental and habitat parameters. Environmental Biology of Fishes 105(7):797-819. https://doi.org/10.1007/s10641-022-01287-9        
+
+Domínguez-Petit R, García-Fernández C, Leonarduzzi E, Rodrigues K, Macchi GJ. 2022. Parental Effects and Reproductive Potential of Fish and Marine Invertebrates: Cross-Generational Impact of Environmental Experiences. Fishes 7(4):188. https://www.mdpi.com/2410-3888/7/4/188        
+
+Fish T, Wolf N, Smeltz TS, Harris BP, Planas JV. 2022. Reproductive biology of female Pacific halibut (Hippoglossus stenolepis) in the Gulf of Alaska. Frontiers in Marine Science 9:801759. https://doi.org/10.3389/fmars.2022.801759       
+
+Galbraith JK, Katherine E. Bemis, William E. Bemis, Heath S. Cook, Wuenschel MJ. 2022. Identifications, distributions, and life history of four species of Seriola (Carangiformes: Carangidae) in the western North Atlantic based on contemporary and historical data. NOAA Professional Paper NMFS 22:1-42. https://doi.org/10.7755/PP.22       
+
+Heins DC, Brown-Peterson NJ. 2022. The reproductive biology of small fishes and the clutch concept: Combining macroscopic and histological approaches. Aquaculture, Fish and Fisheries 2(4):253-264.    https://onlinelibrary.wiley.com/doi/abs/10.1002/aff2.49       
+
+Jasonowicz AJ, Simeon A, Zahm M, Cabau C, Klopp C, Roques C, Iampietro C, Lluch J, Donnadieu C, Parrinello H, Drinan DP, Hauser L, Guiguen Y, Planas JV. 2022. Generation of a chromosome-level genome assembly for Pacific halibut (Hippoglossus stenolepis) and characterization of its sex-determining genomic region. Molecular Ecology Resources 22(7):2685-2700. https://doi.org/10.1111/1755-0998.13641       
+
+Kashef NS, Stafford DM, Sogard SM, Garza JC, Field JC, Gilbert-Horvath EA. 2023. Multiple-brooding rockfishes (Sebastes spp.) can utilize stored sperm from individual sires to fertilize consecutive broods. Journal of Fish Biology n/a(n/a). https://doi.org/10.1111/jfb.15341       
+
+Loher T, McCarthy O, Sadorus LL, Erikson LM, Simeon A, Drinan DP, Hauser L, Planas JV, Stewart IJ. 2022. A Test of Deriving Sex-Composition Data for the Directed Pacific Halibut Fishery via At-Sea Marking. Marine and Coastal Fisheries 14(4):e10218. https://doi.org/10.1002/mcf2.10218        
+
+Lowerre-Barbieri, S. CF, Brown-Peterson N, Moncrief-Cox H, Barnett B. 2022. Best practices for standardized reproductive data and methodology to estimate reproductive parameters for Red Snapper in the Gulf of Mexico. SEDAR74-DW-43 SEDAR, North Charleston, SC 43 p. http://sedarweb.org/docs/wpapers/S74_DW_36_Repro_best%20practices%20report%20final_30_June_2022.v2.pdf        
+
+McBride RS, Fairchild EA, Press YK, Elzey SP, Adams CF, Bentzen P. 2022. A Life History Study of Atlantic Wolffish Resolves Bias and Imprecision in Length- and Age-at-Maturity Schedules by Recognizing Abortive Maturation. Marine and Coastal Fisheries 14(5):e10222. https://doi.org/10.1002/mcf2.10222       
+
+McBride RS, Maynard GA, Elzey SP, Hennen DR, Tholke EK, Runnebaum JM, McGuire CH. 2022. Evaluating growth dimorphism, maturation, and skip spawning of Atlantic halibut in the Gulf of Maine using a collaborative research approach. Journal of Northwest Atlantic Fishery Science 53:57-77. https://doi.org/10.2960/J.v53.m736        
+
+McBride RS, Zemeckis DR, DeCelles GR, Ames T, Andrushchenko I, Kerr L, Miller AS, Cadrin SX. Life history (Chapter 5). In: McBride RS, Smedbol RK, editors. An Interdisciplinary Review of Atlantic Cod (Gadus morhua) Stock Structure in the Western North Atlantic Ocean. NOAA Technical Memorandum NMFS-NE-273. Woods Hole, Massachusetts: US Department of Commerce, National Oceanic and Atmospheric Administration, National Marine Fisheries Service, Northeast Fisheries Science Center; 2022. p. 83-129.        
+
+McElroy WD, Tholke EK, Wuenschel MJ, Robillard E. 2022. Life History Assessment of Cusk, a Data-Poor Species, in U.S. Waters. Marine and Coastal Fisheries 14(5):e10223. https://doi.org/10.1002/mcf2.10223        
+
+Millender AK, Higgs JM, Brown-Peterson NJ, Andres MJ, Franks JS. 2022. Life History of Swordfish, Xiphias gladius, Caught in the Northern Gulf of Mexico. Gulf and Caribbean Research 33(1):GCFI24-GCFI37. https://doi.org/10.18785/gcr.3301.09        
+
+Min MA, Head MA, Cope JM, Hastie JD, Flores SM. 2022. Limitations and applications of macroscopic maturity analyses: a comparison of histological and visual maturity for three west coast groundfish species. Environmental Biology of Fishes 105:193-211. https://doi.org/10.1007/s10641-021-01208-2       
+
+Pacicco AE, Brown-Peterson NJ, Murie DJ, Allman RJ, Snodgrass D, Franks JS. 2023. Reproductive biology of yellowfin tuna (Thunnus albacares) in the northcentral U.S. Gulf of Mexico. Fisheries Research 261:106620. https://www.sciencedirect.com/science/article/pii/S0165783623000139       
+
+Pardee C, Wiley J, Schemmel E, Fendrick T, Giglio J. 2022. Comparative demography of four large-bodied surgeonfish. Environmental Biology of Fishes 105(2):231-245. https://doi.org/10.1007/s10641-022-01216-w        
+
+Reed EM, Brown-Peterson NJ, DeMartini EE, Andrews AH. 2023. Effects of data sources and biological criteria on length-at-maturity estimates and spawning periodicity of the commercially important Hawaiian snapper, Etelis coruscans. Frontiers in Marine Science 10. https://www.frontiersin.org/articles/10.3389/fmars.2023.1102388       
+
+Slesinger E, Bates K, Wuenschel M, Saba GK. 2022. Regional differences in energy allocation of black sea bass (Centropristis striata) along the US Northeast Shelf (36°N - 42°N) and throughout the spawning season. Journal of Fish Biology n/a(n/a). https://doi.org/10.1111/jfb.15023        
+
+TenBrink T, Neidetcher S, Arrington M, Benson I, Conrath C, Helser T. 2022. Fourier transform near infrared spectroscopy as a tool to predict spawning status in Alaskan fishes with variable reproductive strategies. Journal of Near Infrared Spectroscopy 30(4):179-188.  https://journals.sagepub.com/doi/abs/10.1177/09670335221097005        
+
+TenBrink TT. 2022. Delineating yellowfin sole (Limanda aspera) reproduction in the northern Bering Sea provides information across the eastern Bering Sea continental shelf. Fisheries Research 252:106335. https://www.sciencedirect.com/science/article/pii/S0165783622001126       
+
+Zokan MA, David M. Wyanski, D. Byron White, Sedberry GR. 2022. Life history of the spotted moray (Gymnothorax moringa) off the Atlantic coast of the southeastern United States: age, growth, and reproduction. Fishery Bulletin 120(3-4):195-204. https://doi.org/10.7755/FB.120.3-4.1        
+
+
+# 2021 Literature Highlights 
 Fish, T., Wolf, N., Harris, B.P. and Planas, J.V., 2020. A comprehensive description of oocyte developmental stages in Pacific halibut, Hippoglossus stenolepis. Journal of Fish Biology, 97(6), pp.1880-1885.https://doi.org/10.3389/fmars.2022.
 
 Jasonowicz, A.J., Simeon, A., Zahm, M., Cabau, C., Klopp, C., Roques, C., Iampietro, C., Lluch, J., Donnadieu, C., Parrinello, H. and Drinan, D.P., 2022. Generation of a chromosome‐level genome assembly for Pacific halibut (Hippoglossus stenolepis) and characterization of its sex‐determining genomic region. Molecular Ecology Resources. https://doi.org/10.1111/1755-0998.13641.
