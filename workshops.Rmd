@@ -15,6 +15,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ## 2023
 2023 Joint NSAW & MARVLS meeting (May 9-11, 2023). Proceedings coming soon.
 ![](images/MARVLS2023.jpg){width="70%"}
+
+
 MARVLS visits the NMFS-NEFSC Woods Hole Lab for the day, May 11, 2023. Back row (l-r): D. Wyanski (SC-DNR), J. O’Malley (PIFSC), K. Kolmos (SC-DNR), C. Jones (IPHC), C. Conrath (AFSC), Y. Press (NEFSC [IBSS]), K. James (SWFSC), M. Wuenschel (NEFSC). Next row: R. McBride (NEFSC), R. Rideout (DFO), W. Sinkus (SC-DNR), N. Brown-Peterson, E. Tholke (NEFSC [IBSS]), C. Rosemond (OSU), L. Munoz Abril (DISL), M. Passerotti (NEFSC), L. Lefebvre (WHOI). Front Row: K. Lesyna (DCFW), H. Conrad (VT), A. Pacicco (SEFSC [CIMAS]), B. Erisman (SWFSC), R. Dominguez-Petit (IEO-CSIC [Spain]), C. Wells (SC-DNR), M. Taliercio (SC-DNR), E. Reed (PIFSC), C. Rodgeveller (AFSC), S. Beyer (UW), H. Moncrief-Cox (SEFSC [CIMAS]), E. Schemmel (PIFSC). Missing: N. Klibansky (SEFSC), B. Linton (NEFSC), S. McDermott (AFSC), S. Neidetcher (AFSC), E. Slesinger (AFSC-OSU).
 
         
