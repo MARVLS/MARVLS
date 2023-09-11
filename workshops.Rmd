@@ -13,7 +13,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 ## 2023
-14th National Stock Assessment Workshop upcoming - May 9-11, 2023 at the Hotel Providence in Providence, Rhode Island. [See flyer - Call for Papers](https://drive.google.com/file/d/1QvuXZk2C7CR_uVubmQ8IztJq6R8zyDJJ/view?usp=sharing)).
+2023 Joint NSAW & MARVLS meeting (May 9-11, 2023). Proceedings coming soon.
+![](images/MARVLS2023.jpg){width="70%"}
         
 ## 2020
 
