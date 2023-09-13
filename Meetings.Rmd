@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [Male Maturity
 Seminar](https://drive.google.com/drive/folders/1ZrreLOPP7l0MbpZ15ENOE7fwcafGiP72?usp=drive_link).
-Presentations by: Nancy J Peterson, Kevin J. Kolmos, David M. Wyanski, Mark Wuenschel, and Emilee Tholke
+Presentations by: Nancy J Peterson, Kevin J. Kolmos, David M. Wyanski, Mark Wuenschel, and Emilee Tholke on male reproductive terminology and staging with warm water and cold water species examples. 
 
 
 
