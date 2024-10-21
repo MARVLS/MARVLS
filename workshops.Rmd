@@ -14,16 +14,33 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## 2024
-MARVLS 2024 meeting will be held in conjunction with the [American Fisheries Society Annual Meeting in Honolulu from Sept 14-Sept 20](https://afsannualmeeting.fisheries.org/). 
 
-Sunday September 15: MARVLS histology workshop and AFS Continuing education course “Interpreting Reproductive Histology: Female Maturity and Reproductive Phases” led by Nancy Brown-Peterson and Hayden Menendez from 1-5pm at the Honolulu Convention Center.  Workshop Overview and Slide Submission Folders and more details are available [here](https://drive.google.com/drive/folders/1wVYM5Hk6_CK8vn4Gx2egGTXzDEGEs-ez). 
+The NOAA Pacific Islands Fisheries Science Center hosted the 5th biennial meeting for the Maturity Assessment Reproductive Variability and Life Strategies (MARVLS) working group in conjunction with the [National Meeting of the American Fisheries Society in Honolulu in September 14 - 20, 2024](https://afsannualmeeting.fisheries.org/).
 
-Since this workshop is part of the AFS program, there is a workshop registration fee of $90 for regular AFS members ($150 for non AFS members), $65 for AFS student members ($75 for non-members) and $75 for early career AFS members.  Some of this registration fee will be returned to the newly formed AFS Pacific Islands AFS chapter (co-host of the national AFS meeting this year) to help support their regional meetings and local fisheries. We hope that this registration fee will not discourage MARVLS folks from attending the workshop.
-Participants are encouraged to submit summary Google slides (using the MARVLS template, see below for more information) following a standardized format that includes relevant information on species, gonadal stage, and structures of interest. The slides will be organized by the activity facilitators into two groups: 1. “Maturity” or 2. “Other Slides”. The collection of Google slides will be shared with all participants and made available prior to the meeting. 
+Workshop Events
 
-Slides uploaded to the “Maturity” folder will be used in the first part of the Workshop to illustrate how to differentiate between immature and regenerating individuals for a variety of species.  Slides should be uploaded no later than 15 August 2024 to be included in the Maturity portion of the workshop. 
+* Saturday September 14: Cultural site visit to Hawaiian Fish Pond - Paepae O He'eia. 
 
-Photographs of “Other Slides” should be uploaded to the “Other Slides” folder. Researchers are welcome to contribute slides to this folder on which they have questions on structures present or on how to interpret the slide, slides that highlight particular stages or structures (e.g. atresia, POFs) and slides that show unusual or atypical structures or phenomena (e.g. fixation/processing artifacts, mass atresia, parasitism).  These photographs should be uploaded no later than 7 September.  We will attempt to show all of these slides during the second half of the workshop, although extended discussions may result in some slides not being shown.
+![](images/MARVLS_fishpond_2024.jpg){width="70%"}
+
+* Sunday September 15: MARVLS histology workshop and AFS Continuing education course “Interpreting Reproductive Histology: Female Maturity and Reproductive Phases” led by Nancy Brown-Peterson and Hayden Menendez from 1-5pm at the Honolulu Convention Center.  This was a more formal version of a gonad histology workshop, and Nancy and Hayden reached out for materials from other scientists working on fishes outside the southeast US region. Their presentation assembled these diverse descriptions and showed where and how much it matters when calculating point estimates of size and age at maturity.  Workshop presentation and materials are available [here](https://drive.google.com/drive/folders/1wVYM5Hk6_CK8vn4Gx2egGTXzDEGEs-ez). 
+
+![](images/histo_workshop_2024.jpg){width="70%"}
+
+* Monday September 16 8:00 am -5:30 pm: AFS MARVLS symposium “Lessons in fish reproduction for sustainable fisheries: learning from multiple knowledge sources.” [Link to AFS agenda](https://www.xcdsystem.com/afs/program/y7rKVr9/index.cfm). 
+
+![](images/MARVLS5.Symp.SchemmelReed.jpg){width="70%"}
+
+* Tuesday September 17 - Thursday 19: AFS conference at the Honolulu Convention Center. 
+
+* Wednesday September 18: Honolulu Fish Auction
+As the sun rose, Russ Ito (PIFSC) got us oriented to local, federal fisheries, particularly the large pelagics of the Pacific. He shared his experience and knowledge as we walked into the fish auction. The buyers, sellers, and dockworkers performed choreographed movements around large pallets of fish.
+
+![](images/HonoluluFishMarket.LineOfAhi.jpg){width="70%"}
+
+
+* Friday September 20: NOAA Pacific Islands Fisheries Science Center Daniel K. Inouye Regional Center. 
+
 
 
 ## 2023
